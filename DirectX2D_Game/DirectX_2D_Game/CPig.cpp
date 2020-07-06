@@ -7,6 +7,7 @@
 #include <cassert>
 #include "CAnimation.h"
 #include "CMath.h"
+#include "SoundManager.h"
 
 bool CPig::Init()
 {
@@ -98,6 +99,9 @@ bool CPig::Init()
 	SAFE_RELEASE(pAni);
 
 	m_iDir = 1;
+
+	SoundManager::Instance().Load(HitSoundKey.data());
+	SoundManager::Instance().Load(DieSoundKey.data());
 
 	return true;
 };
@@ -231,7 +235,6 @@ void CPig::FirstHitEvent(CObj* const Target, float fDeltaTime)
 void CPig::Hit(CObj* const Target, float fDeltaTime)
 {
 	CMonster::Hit(Target, fDeltaTime);
-
 	
 	if (Target->GetTag() != L"StageColl") {
 		bGround = false;
@@ -240,5 +243,14 @@ void CPig::Hit(CObj* const Target, float fDeltaTime)
 		bJump = false;
 		bGround = true;
 	}
-};
+}
+std::string_view CPig::GetHitSoundKey()
+{
+	return HitSoundKey;
+}
+std::string_view CPig::GetDieSoundKey()
+{
+	return DieSoundKey;
+}
+;
 

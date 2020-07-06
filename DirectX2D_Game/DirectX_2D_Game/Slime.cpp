@@ -7,7 +7,7 @@
 #include <cassert>
 #include "CAnimation.h"
 #include "CMath.h"
-
+#include "SoundManager.h"
 bool CSlime::Init()
 {
 	CMonster::Init();
@@ -99,6 +99,12 @@ bool CSlime::Init()
 	SAFE_RELEASE(pAni);
 
 	m_iDir = 1;
+
+
+	SoundManager::Instance().Load(HitSoundKey.data());
+	SoundManager::Instance().Load(DieSoundKey.data());
+
+
 
 	return true;
 };
@@ -242,5 +248,14 @@ void CSlime::Hit(CObj* const Target, float fDeltaTime)
 		bJump = false;
 		bGround = true;
 	}
-};
+}
+std::string_view CSlime::GetHitSoundKey()
+{
+	return HitSoundKey;
+}
+std::string_view CSlime::GetDieSoundKey()
+{
+	return DieSoundKey;
+}
+;
 

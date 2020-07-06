@@ -1,13 +1,12 @@
 #pragma once
 #include "MoveObj.h"
+#include <string_view>
+
 class CMonster :
     public CMoveObj
 {
 public:
-	CMonster() {
-		CollisionTag = L"Monster";
-	}
-
+	CMonster();
 	bool bMonsterLife = true;
 
 	std::pair<float, float> MonsterXRange;
@@ -22,5 +21,8 @@ public:
 	virtual void AnimationCalc()&abstract;
 	float StateRemaining = 2.f;
 	void Dead()&;
+public:
+	virtual std::string_view GetHitSoundKey()abstract;
+	virtual std::string_view GetDieSoundKey()abstract;
 };
 

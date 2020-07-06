@@ -7,6 +7,7 @@
 #include <cassert>
 #include "CAnimation.h"
 #include "CMath.h"
+#include "SoundManager.h"
 
 bool CMushroom::Init()
 {
@@ -98,6 +99,10 @@ bool CMushroom::Init()
 	SAFE_RELEASE(pAni);
 
 	m_iDir = 1;
+
+
+	SoundManager::Instance().Load(HitSoundKey.data());
+	SoundManager::Instance().Load(DieSoundKey.data());
 
 	return true;
 };
@@ -240,5 +245,14 @@ void CMushroom::Hit(CObj* const Target, float fDeltaTime)
 		bJump = false;
 		bGround = true;
 	}
-};
+}
+std::string_view CMushroom::GetHitSoundKey()
+{
+	return HitSoundKey;
+}
+std::string_view CMushroom::GetDieSoundKey()
+{
+	return DieSoundKey;
+}
+;
 

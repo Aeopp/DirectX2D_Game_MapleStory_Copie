@@ -204,7 +204,7 @@
     <ClCompile Include="UI.cpp" />
     <ClCompile Include="UIButton.cpp" />
     <ClCompile Include="UIPanel.cpp" />
-    <ClCompile Include="USound.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
     <ClCompile Include="Weapon.cpp" />
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>
@@ -261,7 +261,7 @@
     <ClInclude Include="UI.h" />
     <ClInclude Include="UIButton.h" />
     <ClInclude Include="UIPanel.h" />
-    <ClInclude Include="USound.h" />
+    <ClInclude Include="SoundManager.h" />
     <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -3,14 +3,22 @@
 #include "CMath.h"
 #include "CCore.h"
 #include "CSceneManager.h"
+#include "SoundManager.h"
+
 void CMonster::FirstHitEvent(CObj*const  Target, float fDeltaTime)
 {
-
 	CMoveObj::FirstHitEvent(Target, fDeltaTime);
 	if (Target->GetTag() == L"Player") {
 		//MessageBox(WINDOWHANDLE, L"공격!", L"공격!", NULL); 
 	};
 }
+
+CMonster::CMonster() {
+
+	CollisionTag = L"Monster";
+
+}
+
 
 void CMonster::ReleaseHitEvent(CObj* const Target, float fDeltaTime)
 {
@@ -29,8 +37,6 @@ int CMonster::Update(float fDeltaTime)
 
 	RandomState(fDeltaTime);
 	AnimationCalc();
-
-	
 
 	if (CurrentState == EState::JUMP) {
 		if (bJump == false) {
@@ -92,9 +98,7 @@ void CMonster::RandomState(float fDeltaTime)&
 
 void CMonster::Dead()&
 {
-
 	CurrentState = EState::DIE;
 	StateRemaining = 0.5f;
-
 };
 

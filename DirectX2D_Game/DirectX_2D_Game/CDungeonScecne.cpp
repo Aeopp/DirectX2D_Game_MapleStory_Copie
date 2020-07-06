@@ -24,6 +24,8 @@
 #include "Input.h"
 #include "CDungeonScene2.h"
 #include "DataTable.h"
+#include "SoundManager.h"
+
 void ChangeDungeon2() {
 	GET_SINGLE(CSceneManager)->CreateScene<CIngameScene>(SC_NEXT);
 }
@@ -108,6 +110,11 @@ bool CDungeonScecne::Init()
 
 	SAFE_RELEASE(pPlayer);
 	SAFE_RELEASE(CurrentUIMinimap);
+
+
+	SoundManager::Instance().Load("Sound\\BGM\\RestNPeace.mp3");
+	SoundManager::Instance().Play("Sound\\BGM\\RestNPeace.mp3", true);
+
     return true;
 }
 

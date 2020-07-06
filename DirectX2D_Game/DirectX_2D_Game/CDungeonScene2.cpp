@@ -23,6 +23,7 @@
 #include "CHPBar.h"
 #include "Input.h"
 #include "CDungeonScene2.h"
+#include "SoundManager.h"
 
 void ChangeIngame() {
 
@@ -100,6 +101,12 @@ bool CDungeonScene2::Init()
 
 	SAFE_RELEASE(pPlayer);
 	SAFE_RELEASE(CurrentUIMinimap);
+
+
+	SoundManager::Instance().Load("Sound\\BGM\\BlueSky.mp3");
+	SoundManager::Instance().Play("Sound\\BGM\\BlueSky.mp3", true);
+
+
 	return true;
 }
 

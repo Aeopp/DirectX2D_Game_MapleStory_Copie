@@ -17,6 +17,7 @@
 #include "CHPBar.h"
 #include "CDungeonScene2.h"
 #include "DataTable.h"
+#include "SoundManager.h"
 
 CIngameScene::~CIngameScene() noexcept
 {}
@@ -85,9 +86,11 @@ bool CIngameScene::Init()
 	CurrentUIMinimap->SetTexture(L"MinimapUI",
 		L"HappyMinimap.bmp");
 
-
 	SAFE_RELEASE(pPlayer);
 	SAFE_RELEASE(CurrentUIMinimap);
+
+	SoundManager::Instance().Load("Sound\\BGM\\WhiteChristmas.mp3");
+	SoundManager::Instance().Play("Sound\\BGM\\WhiteChristmas.mp3",true);
 
 	return true;
 }

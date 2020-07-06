@@ -180,7 +180,7 @@
     <ClCompile Include="CAnimation.cpp">
       <Filter>Resource</Filter>
     </ClCompile>
-    <ClCompile Include="USound.cpp">
+    <ClCompile Include="SoundManager.cpp">
       <Filter>Sound</Filter>
     </ClCompile>
   </ItemGroup>
@@ -344,7 +344,7 @@
     <ClInclude Include="SingleTon.h">
       <Filter>Sound</Filter>
     </ClInclude>
-    <ClInclude Include="USound.h">
+    <ClInclude Include="SoundManager.h">
       <Filter>Sound</Filter>
     </ClInclude>
   </ItemGroup>

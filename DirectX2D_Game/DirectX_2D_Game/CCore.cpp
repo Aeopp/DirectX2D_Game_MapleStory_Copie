@@ -26,6 +26,9 @@ void CCore::DestroyInst() {
 	DESTROY_SINGLE(CResourcesManager); 
 	DESTROY_SINGLE(CPathManager);
 	DESTROY_SINGLE(CTimer);
+	
+	SoundManager::Instance().Release();
+
 #ifdef _DEBUG
 	FreeConsole();
 #endif
@@ -72,7 +75,7 @@ bool CCore::Init(HINSTANCE hInst)
 	};
 
 	//Sound Manager Init
-	//SoundManager::Instance().Init();
+	SoundManager::Instance().Init();
 
 	return true ;
 }
@@ -140,7 +143,7 @@ LRESULT CCore::WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 void CCore::Logic()
 {
 	GET_SINGLE(CTimer)->Update();
-
+	
 	float fDeltaTime = GET_SINGLE(CTimer)->GetDeltaTime();
 
 	Input(fDeltaTime); 
@@ -166,7 +169,10 @@ SCENE_CHANGE CCore::Update(float fDeltaTime)
 	SCENE_CHANGE sc;
 
 	sc = GET_SINGLE(CSceneManager)->Update(fDeltaTime);
-	GET_SINGLE(CCamera)->Update(nullptr,fDeltaTime);
+	GET_SINGLE(CCamera)->Update(nullptr,fDeltaTime); 
+
+	SoundManager::Instance().Frame(fDeltaTime);
+
 	return sc;
 }
 

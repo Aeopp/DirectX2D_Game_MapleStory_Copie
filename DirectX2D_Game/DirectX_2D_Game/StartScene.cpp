@@ -9,7 +9,7 @@
 #include "CAnimation.h"
 #include "CSceneManager.h"
 #include "CIngameScene.h"
-#include "USound.h"
+#include "SoundManager.h"
 
 
 CStartScene::CStartScene()
@@ -18,12 +18,11 @@ CStartScene::CStartScene()
 
 CStartScene::~CStartScene()
 {
+  
 }
 void CStartScene::Render(HDC hDC, float fDeltaTime)
 {
     CScene::Render(hDC, fDeltaTime);
-
-    
     //GET_SINGLE(CSceneManager)->CreateScene<CIngameScene>(SC_NEXT);
 };
 
@@ -55,6 +54,11 @@ bool CStartScene::Init()
         &CStartScene::StartButtonCallback);
 
     SAFE_RELEASE(pStartBtn);
+
+    SoundManager::Instance().Init();
+
+    SoundManager::Instance().Load("Sound\\BGM\\Login.mp3");
+    SoundManager::Instance().Play("Sound\\BGM\\Login.mp3", true);
 
     return true;
 }

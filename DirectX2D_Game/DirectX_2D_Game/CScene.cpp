@@ -214,11 +214,6 @@ CObj* CScene::FindPtototype(const wstring& strKey,
 	return iter->second;
 }
 
-
-
-
-
-
 void CScene::ChangeProtoType()
 {
 	ErasePrototype(SC_CURRENT);

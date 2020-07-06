@@ -9,6 +9,8 @@
 #include "CMath.h"
 #include "Macro.h"
 #include "DataTable.h"
+#include "SoundManager.h"
+
 void Weapon::FirstHitEvent(CObj* const Target, float fDeltaTime)
 {
 	CMoveObj::FirstHitEvent(Target, fDeltaTime);
@@ -25,6 +27,10 @@ void Weapon::Hit(CObj* const Target, float fDeltaTime)
 		auto [left, right] = DamageRange;
 		int CurrentDamage = CMath::GetRandomNumber(left, right);
 		Monster->GetDamage(CurrentDamage);
+
+		Monster->GetHitSoundKey().data();
+
+
 		auto DamagePos = Target->GetPos();
 		DamagePos.y -= 100;
 		DamagePos.x -= 30;
