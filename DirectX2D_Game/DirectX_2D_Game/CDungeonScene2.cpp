@@ -13,7 +13,6 @@
 #include "StartScene.h"
 #include "Player.h"
 #include "Mushroom.h"
-#include "Bullet.h"
 #include "Ground.h"
 #include "Rope.h"
 #include "Stage.h"

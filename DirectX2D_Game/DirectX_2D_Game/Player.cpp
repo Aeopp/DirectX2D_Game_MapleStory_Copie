@@ -280,7 +280,7 @@ void CPlayer::Input(float fDeltaTime)
 		if (m_iDir == 1)
 			m_pAnimation->ChangeClip(L"PlayerAttack4Right");
 
-		//Fire();
+		
 	}
 
 	if (KEYUP("Fire")) {
@@ -475,28 +475,28 @@ CPlayer* CPlayer::Clone()
 }
 void CPlayer::Fire()
 {
-	CObj* pBullet = CObj::CreateCloneObj(L"Bullet",
-		L"PlayerBullet",m_pScene->GetSceneType(),m_pLayer);
+	//CObj* pBullet = CObj::CreateCloneObj(L"Bullet",
+	//	L"PlayerBullet",m_pScene->GetSceneType(),m_pLayer);
 
-	POSITION tPos;
-	
-	/*auto [ColX,ColY]  = GetCollisionPos();*/
+	//POSITION tPos;
+	//
+	///*auto [ColX,ColY]  = GetCollisionPos();*/
 
-	if (m_iDir == -1) {
-		tPos.x = GetCenter().x - pBullet->GetSize().x * (
-			1.f - pBullet->GetPivot().x);
-	}
-	else if(m_iDir==1){
-		tPos.x = GetCenter().x  + pBullet->GetSize().x * (
-		pBullet->GetPivot().x);
-	}
-	tPos.y = GetCenter().y;
-	pBullet->SetPos(tPos);
+	//if (m_iDir == -1) {
+	//	tPos.x = GetCenter().x - pBullet->GetSize().x * (
+	//		1.f - pBullet->GetPivot().x);
+	//}
+	//else if(m_iDir==1){
+	//	tPos.x = GetCenter().x  + pBullet->GetSize().x * (
+	//	pBullet->GetPivot().x);
+	//}
+	//tPos.y = GetCenter().y;
+	//pBullet->SetPos(tPos);
 
-	if (auto DirSetUp = dynamic_cast<CMoveObj*>(pBullet); DirSetUp!=nullptr) {
-		DirSetUp->SetDir(GetDir());
-	}
-	SAFE_RELEASE(pBullet); 
+	//if (auto DirSetUp = dynamic_cast<CMoveObj*>(pBullet); DirSetUp!=nullptr) {
+	//	DirSetUp->SetDir(GetDir());
+	//}
+	//SAFE_RELEASE(pBullet); 
 }
 void CPlayer::Dead()&
 {
