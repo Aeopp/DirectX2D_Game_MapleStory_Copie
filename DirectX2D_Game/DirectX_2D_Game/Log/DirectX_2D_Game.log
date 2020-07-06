@@ -1,0 +1,840 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8004: Intermediate 디렉터리가 슬래시로 끝나지 않습니다. Intermediate 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  Bullet.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Bullet.cpp(35,28): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Bullet.cpp(36,28): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  Camera.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Camera.cpp(53,63): warning C4244: '인수': 'unsigned int'에서 'const _Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Camera.cpp(54,61): warning C4244: '인수': 'unsigned int'에서 'const _Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=float
+          ]
+  CAnimation.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CAnimation.cpp(94,40): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CAnimation.cpp(95,41): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCore.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CCore.cpp(69,46): warning C4244: '인수': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CCore.cpp(69,28): warning C4244: '인수': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CCore.cpp(432,19): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CCore.cpp(432,31): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+  CDungeon2.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CDungeonScecne.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CScene.h(91,24): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CDungeonScecne.cpp(46): message : 컴파일되는 함수 템플릿 인스턴스화 'void CScene::MonstersSpawn<CSlime>(CLayer *,const std::wstring &,const std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>> &,std::pair<float,float>)'에 대한 참조를 확인하세요.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CScene.h(91,21): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CDungeonScecne.cpp(46): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CDungeonScecne.cpp(46): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,1): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(163,47): warning C4244: '초기화 중': '_Ty'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(234): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(234): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(315): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,_Ty,_Ty,_Ty,0>(_Tag,_This2 &&,_Ty &&,_Ty &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(315): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,_Ty,_Ty,_Ty,0>(_Tag,_This2 &&,_Ty &&,_Ty &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CDungeonScecne.cpp(89): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<int,int,int,0>(_This2 &&,int &&,int &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _This2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CDungeonScecne.cpp(73): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<int,int,int,0>(_This2 &&,int &&,int &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _This2=int
+          ]
+  CDungeonScene2.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CScene.h(91,24): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CDungeonScene2.cpp(43): message : 컴파일되는 함수 템플릿 인스턴스화 'void CScene::MonstersSpawn<CMushroom>(CLayer *,const std::wstring &,const std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>> &,std::pair<float,float>)'에 대한 참조를 확인하세요.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CScene.h(91,21): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CDungeonScene2.cpp(43): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CDungeonScene2.cpp(42): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,1): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(163,47): warning C4244: '초기화 중': '_Ty'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(234): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(234): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(315): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,_Ty,_Ty,_Ty,0>(_Tag,_This2 &&,_Ty &&,_Ty &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(315): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,_Ty,_Ty,_Ty,0>(_Tag,_This2 &&,_Ty &&,_Ty &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CDungeonScene2.cpp(77): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<int,int,int,0>(_This2 &&,int &&,int &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _This2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CDungeonScene2.cpp(76): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<int,int,int,0>(_This2 &&,int &&,int &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _This2=int
+          ]
+  CEliniaScene.cpp
+  CHPBar.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+  CIngameScene.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+  CMath.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Colinder.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ColinderRect.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CollisionManager.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CollisionPoint.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CPig.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CPig.cpp(36,10): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CPig.cpp(120,43): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CPig.cpp(37): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\CPig.cpp(37): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,1): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+  CScene.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+  CSceneManager.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+  DamagePont.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DamagePont.cpp(80,19): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dungeon.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(246): warning C4715: 'CObj::GetCollisionRect': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(195): warning C4715: '`CObj::FindHitList'::`2'::<lambda_1>::operator()<std::pair<CObj *,enum ECOLLISION_STATE> >': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  Game.cpp
+  GameStartButton.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\GameStartButton.cpp(80,35): warning C4390: ';': 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\GameStartButton.cpp(90,35): warning C4390: ';': 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+  Ground.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+  Input.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Layer.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Main.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Monster.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Monster.cpp(87,43): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Mouse.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MoveObj.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.cpp(66,3): warning C5055: 연산자 '*': 열거형과 부동 소수점 형식 간에 사용되지 않음
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.cpp(72,35): warning C5055: 연산자 '*': 열거형과 부동 소수점 형식 간에 사용되지 않음
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.cpp(242,18): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Mushroom.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Mushroom.cpp(21,10): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Mushroom.cpp(120,43): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Mushroom.cpp(22): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Mushroom.cpp(22): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,1): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+  Obj.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(124,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(124,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(125,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(125,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(126,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(126,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(127,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(127,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(128,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(128,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(134,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(134,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(134,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(134,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(135,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(135,37): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(135,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(135,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PathManager.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Pixel.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2395,23): warning C4244: '인수': 'const wchar_t'에서 'const _Elem'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2406): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2406): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2386): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2386): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Pixel.cpp(20): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Pixel.cpp(20): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  Player.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Player.cpp(55,22): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Player.cpp(522,22): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Player.cpp(521,37): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Player.cpp(545,53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Player.cpp(545,47): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Portal.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+  Ref.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ResourcesManager.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Rope.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+  Slime.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Slime.cpp(22,10): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Slime.cpp(123,43): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Slime.cpp(24): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Slime.cpp(24): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,1): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+  Stage.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(246): warning C4715: 'CObj::GetCollisionRect': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(195): warning C4715: '`CObj::FindHitList'::`2'::<lambda_1>::operator()<std::pair<CObj *,enum ECOLLISION_STATE> >': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  StartScene.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\StartScene.cpp(37,56): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\StartScene.cpp(37,38): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\StartScene.cpp(46,35): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\StartScene.cpp(45,44): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  StaticObj.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Texture.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Timer.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  UI.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  UIButton.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\UIButton.cpp(78,35): warning C4390: ';': 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\UIButton.cpp(88,35): warning C4390: ';': 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+  UIPanel.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Weapon.cpp
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Weapon.cpp(26,52): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Weapon.cpp(26,46): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Weapon.cpp(27,22): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Weapon.cpp(64): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\Weapon.cpp(64): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+  WinMain.cpp
+  코드를 생성하고 있습니다...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8004: Intermediate 디렉터리가 슬래시로 끝나지 않습니다. Intermediate 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+DX_Lib.lib(DirectXTexWIC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DX_Lib.lib(DirectXTexWIC.obj)' 또는 'D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DX_Lib.lib(DirectXTexUtil.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DX_Lib.lib(DirectXTexUtil.obj)' 또는 'D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DX_Lib.lib(DirectXTexTGA.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DX_Lib.lib(DirectXTexTGA.obj)' 또는 'D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DX_Lib.lib(DirectXTexMipMaps.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DX_Lib.lib(DirectXTexMipMaps.obj)' 또는 'D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DX_Lib.lib(DirectXTexImage.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DX_Lib.lib(DirectXTexImage.obj)' 또는 'D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DX_Lib.lib(DirectXTexDDS.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DX_Lib.lib(DirectXTexDDS.obj)' 또는 'D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DX_Lib.lib(DirectXTexD3D11.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DX_Lib.lib(DirectXTexD3D11.obj)' 또는 'D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DX_Lib.lib(DirectXTexConvert.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DX_Lib.lib(DirectXTexConvert.obj)' 또는 'D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DX_Lib.lib(DirectXTexCompress.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DX_Lib.lib(DirectXTexCompress.obj)' 또는 'D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DX_Lib.lib(BC6HBC7.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DX_Lib.lib(BC6HBC7.obj)' 또는 'D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DX_Lib.lib(BC4BC5.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DX_Lib.lib(BC4BC5.obj)' 또는 'D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DX_Lib.lib(BC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DX_Lib.lib(BC.obj)' 또는 'D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  DirectX_2D_Game.vcxproj -> D:\DirectX2DGame\DirectX2D_Game\DirectX_2D_Game\\Game.exe

@@ -1,0 +1,4 @@
+C:\Users\irmxj\Desktop\DirectX2DGame\DirectX2D_Game\DX_Lib\Log\DX_Lib.pdb
+C:\Users\irmxj\Desktop\DirectX2DGame\DirectX2D_Game\DX_Lib\DX_Lib.pdb
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\Log\DX_Lib.pdb
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\DX_Lib.pdb

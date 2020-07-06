@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CCore.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CDungeon2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CDungeonScecne.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CDungeonScene2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CEliniaScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CHPBar.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CIngameScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CMath.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Colinder.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ColinderRect.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionPoint.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPig.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DamagePont.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStartButton.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveObj.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Pixel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Ref.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcesManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Rope.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObj.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPanel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CCore.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CDungeon2.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CDungeonScecne.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CDungeonScene2.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CHPBar.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CIngameScene.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CMath.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Colinder.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ColinderRect.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionPoint.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CPig.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DamagePont.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTable.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStartButton.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveObj.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Pixel.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Ref.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Rope.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObj.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPanel.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

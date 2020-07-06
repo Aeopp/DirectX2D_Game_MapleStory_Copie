@@ -1,0 +1,85 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8004: Intermediate 디렉터리가 슬래시로 끝나지 않습니다. Intermediate 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  D3DTexture.cpp
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.cpp(52,29): warning C4267: '=': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.cpp(53,31): warning C4267: '=': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.cpp(85,22): warning C4477: 'swscanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'unsigned __int64'입니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.cpp(85,22): message : 이 인수는 버퍼 크기로 사용됩니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.cpp(85,22): warning C4473: 'swscanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.cpp(85,22): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 5개 필요하지만 3개가 제공되었습니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.cpp(85,22): message : 누락된 variadic 인수 4이(가) 서식 문자열 '%s'에 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.cpp(85,22): message : 이 인수는 변환 지정자에서 사용됩니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.cpp(91,23): warning C4477: 'swscanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'unsigned __int64'입니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.cpp(91,23): message : 이 인수는 버퍼 크기로 사용됩니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.cpp(96,24): warning C4477: 'swscanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'unsigned __int64'입니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.cpp(96,24): message : 이 인수는 버퍼 크기로 사용됩니다.
+  Graphics.cpp
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\Graphics.cpp(180,19): warning C4244: '=': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\Graphics.cpp(181,20): warning C4244: '=': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Input.cpp
+  MainWindow.cpp
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\MainWindow.cpp(39,44): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\MainWindow.cpp(39,73): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\MainWindow.cpp(80,35): warning C4244: '초기화 중': 'float'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\MainWindow.cpp(86,66): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Mesh.cpp
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SoundEffect.cpp
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\SoundEffect.cpp(31,36): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2395,23): warning C4244: '인수': '_Elem'에서 'const _Elem'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Elem=wchar_t
+          ]
+          and
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2406): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_Iter>(_Iter,const _Iter,std::input_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2406): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_Iter>(_Iter,const _Iter,std::input_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2386): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_Iter>(const _Iter,const _Iter,std::forward_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2386): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_Iter>(const _Iter,const _Iter,std::forward_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(3022): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<wchar_t*,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(3022): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<wchar_t*,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\SoundEffect.cpp(36): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\SoundEffect.cpp(36): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+  Writer.cpp
+D:\DirectX2DGame\DirectX2D_Game\DX_Lib\Writer.cpp(39,29): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  DX_Lib.vcxproj -> D:\DirectX2DGame\DirectX2D_Game\DX_Lib\\DX_Lib.lib
