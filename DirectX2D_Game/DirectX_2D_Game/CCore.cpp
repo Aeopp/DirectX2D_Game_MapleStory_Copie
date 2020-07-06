@@ -12,6 +12,7 @@
 #include "Pixel.h"
 #include "DataTable.h"
 #include "Mouse.h"
+#include "SoundManager.h"
 
 void CCore::Clear(){
 	
@@ -20,15 +21,11 @@ void CCore::Clear(){
 void CCore::DestroyInst() {
 	SAFE_DELETE(m_pInst);
 	DESTROY_SINGLE(CSceneManager);
-//	DESTROY_SINGLE(CCollisionManager);
 	DESTROY_SINGLE(CInput);
 	DESTROY_SINGLE(CCamera);
 	DESTROY_SINGLE(CResourcesManager); 
 	DESTROY_SINGLE(CPathManager);
 	DESTROY_SINGLE(CTimer);
-
-	//ReleaseDC(m_hWnd, m_hDC);
-
 #ifdef _DEBUG
 	FreeConsole();
 #endif
@@ -73,6 +70,10 @@ bool CCore::Init(HINSTANCE hInst)
 	if (!GET_SINGLE(CSceneManager)->Init()) {
 		return false;
 	};
+
+	//Sound Manager Init
+	//SoundManager::Instance().Init();
+
 	return true ;
 }
 
@@ -220,7 +221,7 @@ SCENE_CHANGE CCore::LateUpdate(float fDeltaTime)
 
 void CCore::Collision(float fDeltaTime)
 {
-	// TODO :: 여기서 충돌 검사하기전에 테이블 세팅 보장 해줘야함 !!!!!!!!!!!!
+	// TODO :: 여기서 충돌 검사하기전에 테이블 세팅 보장 해줘야함 
 	//GET_SINGLE(CSceneManager)->Collision(fDeltaTime);
 
 	if (CObj::m_ObjList.size() < 2) {
@@ -266,28 +267,13 @@ void CCore::Collision(float fDeltaTime)
 						(*Inner)->Hit(*Outer, fDeltaTime);
 						(*Outer)->Hit(*Inner, fDeltaTime);
 					
-					//MessageBox(NULL, LhsTag.c_str(), RhsTag.c_str(),MB_OK);
 				}
 			}
 		
 		}
 	}
 
-	//for (CObj* element : CObj::m_ObjList) {
-
-	//	//if (CMushroom* Mush = dynamic_cast<CMushroom*>(element);
-	//	//	Mush != nullptr)
-	//	//{
-	//	//	Mush->GetCollisionPos();
-
-	//	//	/*Rectangle(pBackBuffer->GetDC(), tPos.x, tPos.y,
-	//	//		tPos.x + Size.x, tPos.y + Size.y);*/
-	//	//}
-	//}
-
-
-	// 버그버그버그
-	//GET_SINGLE(CCollisionManager)->Collision(fDeltaTime);
+	
 }
 
 void CCore::Render(float fDeltaTime)
@@ -370,28 +356,7 @@ bool CCore::CollisionSphereToSphere(const RECTANGLE& Lhs, const RECTANGLE& Rhs)
 
 bool CCore::CollisionRectToPixel(const RECTANGLE& src, const vector<PIXEL>& vecPixel, int iWidth, int iHeight)
 {
-	/*int iStartX, iEndX;
-	int iStartY, iEndY;
-
-	iStartX = src.left < 0 ? 0 : src.left;
-	iEndX = src.right >= iWidth ?
-		iWidth - 1 : src.right;
-
-	iStartY = src.top < 0 ? 0 : src.top;
-	iEndY = src.bottom >= iHeight? iHeight - 1:
-		src.bottom;
-
-	for (int i = iStartY; i <= iEndY; ++i) {
-		for (int j = iStartX; j <= iStartX; ++j) {
-			int idx = i * iWidth + j;
-			const PIXEL& pixel = vecPixel[idx];
-			if (pixel.r == 255 && pixel.g == 0 && pixel.b == 255) {
-				
-				return true; 
-			}
-		}
-	}*/
-
+	
 	return false; 
 }
 
@@ -453,8 +418,6 @@ CCore::~CCore() noexcept
 	if (m_Graphics != nullptr) {
 		delete m_Graphics;
 	}
-	/*DESTROY_SINGLE(CCore);
-	DESTROY_SINGLE(CTimer);*/
-	//DESTROY_SINGLE(CTimer);
+	
 }
 

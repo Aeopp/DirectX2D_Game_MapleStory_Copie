@@ -39,17 +39,8 @@ void CRope::Hit(CObj* const Target, float fDeltaTime)
         Player->MovePos.top = 0;
     }
     // 타겟이 플레이어라면 로프플래그를 켜준다
-    // 플래그를 켜준 이후 자기자신 x좌표로 플레이어 x좌표를 세팅한다.
+    // 플래그를 켜준 이후 플레이어의 좌표를 제한한다.
     auto [x, y] = Target->GetPos();
-
-   /* if (y <= GetPos().y) {
-        if (auto IsMoveable = dynamic_cast<CMoveObj*>(Target); IsMoveable != nullptr) {
-            if (IsMoveable->bJump != true) {
-                Target->SetGravityTime(0.f);
-                IsMoveable->MovePos.top = 0;
-            }
-        }
-    }*/
 }
 void CRope::ReleaseHitEvent(CObj* const Target, float fDeltaTime)
 {
@@ -57,9 +48,7 @@ void CRope::ReleaseHitEvent(CObj* const Target, float fDeltaTime)
 
     if (auto Player = dynamic_cast<CPlayer*>(Target); Player != nullptr) {
         Player->bRope = false;
-//        Player->m_tPos.x = m_tPos.x;
-  //      Player->SetGravityTime(0.f);
-    //    Player->MovePos.top = 0;
+
     }
 }
 ;

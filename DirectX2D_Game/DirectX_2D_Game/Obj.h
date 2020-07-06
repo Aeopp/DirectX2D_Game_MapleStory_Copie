@@ -148,13 +148,6 @@ public:
 		const wstring& strTexKey, const wchar_t* pFileName,
 		const wstring& strPathKey = TEXTURE_PATH);
 
-	//bool AddAnimationClip(const wstring& strName, ANIMATION_TYPE eType,
-	//	ANIMATION_OPTION eOption, float fAnimationLimitTime,
-	//	int iFrameMaxX, int iFrameMaxY, int iStartX, int iStartY,
-	//	int iLengthX, int iLengthY, float fOptionLimitTime,
-	//	const wstring& strTexKey, const vector<wstring >& vecFileName,
-	//	const wstring& strPathKey = TEXTURE_PATH);
-
 	void SetAnimationClipColorkey(const wstring& strClip, unsigned char r,
 		unsigned char g, unsigned char b);
 
@@ -223,9 +216,7 @@ public:
 			return std::end(HitList);
 		}
 	}
-	/* list<class CCollider*>* GetColliderList() {
-		return &m_ColliderList;
-	}*/
+
 	RECTANGLE GetCollisionRect()const {
 		if (bCorrection == true) {
 			auto Pos = __GetCollisionPos();

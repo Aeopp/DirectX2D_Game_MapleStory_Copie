@@ -34,9 +34,7 @@ bool CSlime::Init()
 	SetTexture(L"Slime", L"Animation/Monster/Slime/Left/HIT.bmp");
 	SetColorKey(255, 0, 255);
 
-	//SetCorrectionRenderToCollision(RECTANGLE{110,54,151,128});
-
-	// HP 지정
+	
 
 	SetPhysics(true);
 	SetForce(200.f);
@@ -236,11 +234,7 @@ void CSlime::FirstHitEvent(CObj* const Target, float fDeltaTime)
 void CSlime::Hit(CObj* const Target, float fDeltaTime)
 {
 	CMonster::Hit(Target, fDeltaTime);
-	//if (Target->GetTag() == L"Player" && CurrentState != EState::DIE) {
-	//	CurrentState = EState::HIT;
-	//	StateRemaining = 0.2f;
-	//	//MessageBox(WINDOWHANDLE, L"공격!", L"공격!", NULL); 
-	//};
+
 	if (Target->GetTag() != L"StageColl") {
 		bGround = false;
 	}

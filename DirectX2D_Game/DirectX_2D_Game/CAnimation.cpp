@@ -45,7 +45,6 @@ CAnimation::~CAnimation()
 			if (_Texture) {
 				delete _Texture;
 			}
-			//SAFE_RELEASE(iter->second->vecTexture[i]); 
 		}
 
 		SAFE_DELETE(iter->second);
@@ -88,8 +87,6 @@ bool CAnimation::AddClip(const wstring& strName,
 			pTex->LoadTexture(GET_SINGLE(CCore)->m_Graphics->GetDevice(), path);
 		}
 	}
-	//CTexture* pTex = GET_SINGLE(CResourcesManager)->LoadTexture(strTexKey,
-	//	pFileName, strPathKey);
 
 	pClip->tFrameSize.x = pTex->GetWidth()/iFrameMaxX;
 	pClip->tFrameSize.y = pTex->GetHeight()/iFrameMaxY;
@@ -111,56 +108,7 @@ bool CAnimation::AddClip(const wstring& strName,
 	}
 	return true;
 }
-//bool CAnimation::AddClip(
-//const wstring& strName, ANIMATION_TYPE eType, ANIMATION_OPTION eOption,
-//float fAnimationLimitTime, int iFrameMaxX, int iFrameMaxY, int iStartX, 
-//int iStartY, int iLengthX, int iLengthY, float fOptionLimitTime,
-//const wstring& strTexKey, const vector<wstring >& vecFileName, 
-//const wstring& strPathKey)
-//{
-//	PANIMATIONCLIP pClip = new ANIMATIONCLIP;
-//
-//	pClip->eType = eType;
-//	pClip->eOption = eOption;
-//	pClip->fAnimationLimitTime = fAnimationLimitTime;
-//	pClip->iFrameMaxX = iFrameMaxX;
-//	pClip->iFrameMaxY = iFrameMaxY;
-//	pClip->iStartX = iStartX;
-//	pClip->iStartY = iStartY;
-//	pClip->iLengthX = iLengthX;
-//	pClip->iLengthY = iLengthY;
-//	pClip->fOptionLimitTime = fOptionLimitTime;
-//	pClip->fAnimationFrameTime =fAnimationLimitTime / (iLengthX * iLengthY);
-//
-//	for (size_t i = 0; i < vecFileName.size(); ++i) {
-//		char strKey[256] = {};
-//
-//		sprintf_s(strKey, "%s%d", strTexKey.c_str(), i + 1);
-//		CTexture* pTex = GET_SINGLE(CResourcesManager)->LoadTexture(strTexKey,
-//			vecFileName[i].c_str(), strPathKey);	
-//		
-//		pClip->vecTexture.push_back(pTex);
-//	}
-//
-//	pClip->tFrameSize.x = pClip->vecTexture[0]->GetWidth() / iFrameMaxX;
-//	pClip->tFrameSize.y = pClip->vecTexture[0]->GetHeight()
-//		/ iFrameMaxY;
-//
-//	pClip->fAnimationTime = 0.f;
-//	pClip->iFrameX = iStartX;
-//	pClip->iFrameY = iStartY;
-//	pClip->fOptionTime = 0.f;
-//
-//	m_mapClip.insert(std::make_pair(strName, pClip));
-//
-//	if (m_strDefaultClip.empty()) {
-//		SetDefaultClip(strName);
-//	}
-//	if (m_strCurClip.empty()) {
-//		SetCurrentClip(strName);
-//	}
-//	return true;
-//}
+
 void CAnimation::SetClipColorkey(const wstring& strClip ,
 	unsigned char r, unsigned char g, unsigned char b)
 {

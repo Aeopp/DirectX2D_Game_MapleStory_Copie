@@ -79,21 +79,7 @@ bool CPixel::SetPixelInfo(const char* pFileName, const wstring& strPathKey)
 
 	return true; 
 
-	// 파일 제대로 읽는지??
-
-	//fclose(pFile);
-
-	//fopen_s(&pFile, "Test777.bmp", "wb");
-
-	//if (!pFile)
-	//	return false;
-
-	//fwrite(&fh, sizeof(fh), 1, pFile);
-	//fwrite(&ih, sizeof(ih), 1, pFile);
-	//fwrite(&m_vecPixel[0], sizeof(PIXEL), 1, pFile);
-
-	//fclose(pFile);
-
+	
 	return true;
 }
 

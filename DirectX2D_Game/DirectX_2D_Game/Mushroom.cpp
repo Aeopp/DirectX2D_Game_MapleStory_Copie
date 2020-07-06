@@ -215,8 +215,7 @@ void CMushroom::Render(HDC hDC, float fDeltaTime)
 	CMonster::Render(hDC, fDeltaTime);
 
 #ifdef _DEBUG
-	//DebugPrintHP(hDC, m_iHP);
-	//CObj::DebugCollisionPrint(hDC);
+
 #endif _DEBUG
 }
 void CMushroom::ReleaseHitEvent(CObj* const Target, float fDeltaTime)
@@ -233,11 +232,7 @@ void CMushroom::FirstHitEvent(CObj* const Target, float fDeltaTime)
 void CMushroom::Hit(CObj* const Target, float fDeltaTime)
 {
 	CMonster::Hit(Target, fDeltaTime);
-	//if (Target->GetTag() == L"Player" && CurrentState != EState::DIE) {
-	//	CurrentState = EState::HIT;
-	//	StateRemaining = 0.2f;
-	//	//MessageBox(WINDOWHANDLE, L"공격!", L"공격!", NULL); 
-	//};
+	
 	if (Target->GetTag() != L"StageColl") {
 		bGround = false;
 	}

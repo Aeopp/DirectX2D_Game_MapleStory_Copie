@@ -15,6 +15,9 @@ private:
 	float m_fFPSTime;
 	int m_iFrame;
 	std::vector<std::tuple<float, float,ETimerState,std::function<void(float)>>> CallBacks;
+private:
+	void DebugFPSPrint() const & noexcept;
+
 public :
 	void PushTimer(float Tick,ETimerState State,std::function<void(float)> Function) {
 		CallBacks.emplace_back(Tick, Tick, State, std::move(Function));

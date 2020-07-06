@@ -22,11 +22,7 @@ CMoveObj::CMoveObj(const CMoveObj& Obj) :
 	m_fAngle = Obj.m_fAngle;
 	m_fSpeed = Obj.m_fSpeed;
 
-	/*m_bFalling = false;
-	m_bMove = false;*/
 
-	/*m_fForceOrigin = Obj.m_fForceOrigin;
-	m_fForce = 0.f;*/
 }
 void CMoveObj::HPBarSpawn( POSITION Pos, _SIZE Size,const std::pair<std::wstring, std::wstring>& Objectnames, const std::pair<std::wstring, std::wstring> & FileNames,
 	CLayer* UILayer)
@@ -150,8 +146,7 @@ void CMoveObj::Jump()
 }
 void CMoveObj::JumpEnd()
 {
-		/*m_bFalling = false;
-		m_fForce = 0.f;*/
+		
 };
 
 bool CMoveObj::Init()
@@ -176,10 +171,8 @@ int CMoveObj::Update(float fDeltaTime)
 
 	if (m_bIsPhysics == true && bRope==false ) {
 		m_fGravityTime +=  fDeltaTime;
-	/*	m_fGravityTime = std::clamp<float>(m_fGravityTime, 0, 1);*/
 
 		 m_tPos.y   += (GRAVITY * m_fGravityTime * m_fGravityTime);
-		//m_tPos.y += (GRAVITY * m_fGravityTime) * 0.1f;
 	};
 	if (MovePos.top > 1) {
 		if (GetTag() == L"Player") {

@@ -31,7 +31,6 @@ void CHPBar::Render(HDC hDC, float fDeltaTime)
         LONG Y = (LONG)GET_SINGLE(CCore)->GetResolution().iH - 53 / 2;
         LONG Size = 50;
         RECT rt = RECT{ X,Y,X + Size,Y + Size };
-     //   DrawText(hDC, std::to_wstring(PlayerInfo::PlayerLV).c_str(), -1, &rt, DT_LEFT | DT_VCENTER);
     }
 }
 

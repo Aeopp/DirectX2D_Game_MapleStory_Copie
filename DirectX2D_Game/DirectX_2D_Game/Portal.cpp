@@ -21,20 +21,6 @@ bool Portal::Init()
 	SetTexture(L"Portal", L"Portal.bmp");
 	SetColorKey(255, 0, 255);
 
-//	CAnimation* pAni = CreateAnimation(L"PortalAnim");
-//
-//	// TODO :: ANIMATION Field
-//	// Idle 
-//	{
-//		AddAnimationClip(L"PortalAnimation", AT_ATLAS, AO_LOOP,
-//			0.5f, 3, 3, 0, 0, 3, 3, 0.f, L"PortalAnimation", L"PortalAnim.bmp");
-//		SetAnimationClipColorkey(L"PortalAnimation", 255, 0, 255);
-//	}
-////	m_pTexture->bAlpha = true; 
-//
-//	m_pAnimation->ChangeClip(L"PortalAnimation");
-//	m_pAnimation->SetDefaultClip(L"PortalAnimation");
-
 	return true; 
 }
 

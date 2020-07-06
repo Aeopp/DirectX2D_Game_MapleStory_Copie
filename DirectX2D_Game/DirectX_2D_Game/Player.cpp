@@ -283,9 +283,7 @@ void CPlayer::Input(float fDeltaTime)
 		
 	}
 
-	if (KEYUP("Fire")) {
-		Fire(); 
-	}
+	
 	if (KEYDOWN("Skill1")) {
 		MessageBox(NULL, L"Skill1", L"Skill1", MB_OK);
 	}
@@ -473,31 +471,7 @@ CPlayer* CPlayer::Clone()
 {
 	return new CPlayer{ *this };
 }
-void CPlayer::Fire()
-{
-	//CObj* pBullet = CObj::CreateCloneObj(L"Bullet",
-	//	L"PlayerBullet",m_pScene->GetSceneType(),m_pLayer);
 
-	//POSITION tPos;
-	//
-	///*auto [ColX,ColY]  = GetCollisionPos();*/
-
-	//if (m_iDir == -1) {
-	//	tPos.x = GetCenter().x - pBullet->GetSize().x * (
-	//		1.f - pBullet->GetPivot().x);
-	//}
-	//else if(m_iDir==1){
-	//	tPos.x = GetCenter().x  + pBullet->GetSize().x * (
-	//	pBullet->GetPivot().x);
-	//}
-	//tPos.y = GetCenter().y;
-	//pBullet->SetPos(tPos);
-
-	//if (auto DirSetUp = dynamic_cast<CMoveObj*>(pBullet); DirSetUp!=nullptr) {
-	//	DirSetUp->SetDir(GetDir());
-	//}
-	//SAFE_RELEASE(pBullet); 
-}
 void CPlayer::Dead()&
 {
 	if (bDead == true) return ;
@@ -558,10 +532,7 @@ void CPlayer::Hit(CObj* const Target, float fDeltaTime)
 		}
 		HitJumpForce = 70.f;
 
-		/*JumpDelta += 0.3f;
-		MovePos.top = 200;
-		JumpHit = true;*/
-		 // IsMonster->Damage;
+	
 		if (PlayerInfo::PlayerHP <= 0) {
 			HitDelta = 100000.f;
 			Dead();

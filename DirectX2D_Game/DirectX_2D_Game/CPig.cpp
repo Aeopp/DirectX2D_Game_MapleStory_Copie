@@ -232,11 +232,7 @@ void CPig::Hit(CObj* const Target, float fDeltaTime)
 {
 	CMonster::Hit(Target, fDeltaTime);
 
-	//if (Target->GetTag() == L"Player" && CurrentState != EState::DIE) {
-	//	CurrentState = EState::HIT;
-	//	StateRemaining = 0.2f;
-	//	//MessageBox(WINDOWHANDLE, L"공격!", L"공격!", NULL); 
-	//};
+	
 	if (Target->GetTag() != L"StageColl") {
 		bGround = false;
 	}

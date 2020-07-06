@@ -96,17 +96,5 @@ void CMonster::Dead()&
 	CurrentState = EState::DIE;
 	StateRemaining = 0.5f;
 
-	/*GET_SINGLE(CTimer)->PushTimer(0.6f, ETimerState::ONCE, [Target = this](float) {
-		
-		});*/
-
-	//GET_SINGLE(CTimer)->PushTimer(0.7f, ETimerState::ONCE, [&](float) {
-	//	bDead = true; 
-	//	bCollision = false; 
-	//	GET_SINGLE(CTimer)->PushTimer(15.f, ETimerState::ONCE, [&](float) {
-	//		bDead = false;
-	//		bCollision = true; 
-	//		});
-	//	});
 };
 

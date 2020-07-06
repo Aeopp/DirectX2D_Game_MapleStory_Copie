@@ -34,7 +34,6 @@ public:
 	void FirstHitEvent(CObj* const Target, float fDeltaTime)override;
 	void SetWeapon(class CLayer* pLayer);
 	virtual CPlayer* Clone()override;
-	void Fire(); 
 	void Dead()&;
 	virtual void Hit(CObj* const Target, float fDeltaTime)override;
 };

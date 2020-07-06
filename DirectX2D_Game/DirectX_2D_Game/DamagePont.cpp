@@ -11,18 +11,7 @@ bool DamagePont::Init()
 	
 	SetTexture(L"Damage", L"Damage/Damage.bmp");
 	SetColorKey(255, 0, 255);
-	//Ponts.resize(10);
-	//	SetTexture(L"Player", L"Animation/Player/Left/DEAD.bmp");
-	//	std::wstring PontName = L"Damage";
-
-	//	for (int i = 0; i < 10; ++i) {
-	//		auto* Texture = Ponts[i];
-	//		std::wstring PontIdxStr = PontName + std::to_wstring(i);
-	//		Texture = GET_SINGLE(CResourcesManager)->LoadTexture(PontIdxStr,
-	//			        (to_wstring(i) + L".bmp").c_str(),TEXTURE_PATH);
-	//		Ponts[i] = Texture;
-	//		SAFE_RELEASE(Texture);
-	//	};
+	
 
 	
 

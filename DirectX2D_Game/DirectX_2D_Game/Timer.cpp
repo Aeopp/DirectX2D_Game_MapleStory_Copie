@@ -6,6 +6,18 @@ CTimer::CTimer() :
 }
 CTimer::~CTimer() {
 }
+void CTimer::DebugFPSPrint() const& noexcept
+{
+#ifdef _DEBUG
+	char strFPS[64] = {};
+	sprintf_s(strFPS,
+		"FPS : %.f\n", m_fFPS);
+	SetWindowTextA(m_hWnd,
+		strFPS);
+	OutputDebugStringA(strFPS);
+	_cprintf(strFPS);
+#endif 
+}
 bool CTimer::Init(HWND hWnd)
 {
 	m_hWnd = hWnd;
@@ -52,15 +64,7 @@ void CTimer::Update()
 		m_fFPSTime = 0.f;
 		m_iFrame = 0;
 
-#ifdef _DEBUG
-		char strFPS[64] = {};
-		sprintf_s(strFPS,
-			"FPS : %.f\n", m_fFPS);
-		SetWindowTextA(m_hWnd,
-			strFPS);
-		OutputDebugStringA(strFPS);
-		_cprintf(strFPS);
-#endif 
+
 	}
 
 }

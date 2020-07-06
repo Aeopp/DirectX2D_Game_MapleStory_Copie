@@ -9,6 +9,8 @@
 #include "CAnimation.h"
 #include "CSceneManager.h"
 #include "CIngameScene.h"
+#include "USound.h"
+
 
 CStartScene::CStartScene()
 {

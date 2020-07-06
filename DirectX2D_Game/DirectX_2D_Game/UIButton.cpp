@@ -56,7 +56,6 @@ void CUIButton::Hit(CObj* const Target, float fDeltaTime)
 	CUI::Hit(Target, fDeltaTime);
 
 	if (Target->GetTag() == L"Mouse") {
-		//MessageBox(WINDOWHANDLE, L"Keep", L"Keep", NULL);
 
 		if (KEYDOWN("MouseLButton")) {
 			MouseClickEvent(Target, fDeltaTime);
@@ -76,7 +75,6 @@ void CUIButton::FirstHitEvent(CObj* const Target, float fDeltaTime)
 	CUI::FirstHitEvent(Target, fDeltaTime);
 
 	if (Target->GetTag() == L"Mouse");
-	//MessageBox(WINDOWHANDLE, L"First", L"First", NULL);
 }
 
 void CUIButton::ReleaseHitEvent(CObj* const Target, float fDeltaTime)
@@ -86,7 +84,6 @@ void CUIButton::ReleaseHitEvent(CObj* const Target, float fDeltaTime)
 	SetImageOffset(0.f, 0.f);
 
 	if (Target->GetTag() == L"Mouse");
-	//MessageBox(WINDOWHANDLE, L"Release", L"Release", NULL);
 
 	if (Target->GetTag() == L"Mouse") {
 		GET_SINGLE(CInput)->MouseAnimPlay("MouseNormal");

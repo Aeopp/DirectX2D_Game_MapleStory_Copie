@@ -39,7 +39,6 @@ static void Safe_Release_VecList(T& p) {
 	typename T::iterator iterEnd = p.end();
 	for (iter = p.begin(); iter != iterEnd; ++iter) {
 		SAFE_RELEASE((*iter));
-		//SAFE_DELETE((*iter));
 	}
 	p.clear();
 };

@@ -37,12 +37,6 @@ bool CTexture::LoadTexture(HINSTANCE hInst, HDC hDC,
 
 	
 
-	/*m_hBitmap = (HBITMAP)LoadImage(hInst, strPath.c_str(),
-		IMAGE_BITMAP, 0, 0, LR_LOADFROMFILE);
-
-	m_hOldBitmap = (HBITMAP)SelectObject(m_hMemDC, m_hBitmap);*/
-
-	//GetObject(m_hBitmap, sizeof(m_tInfo), &m_tInfo);
 
 	return true; 
 }

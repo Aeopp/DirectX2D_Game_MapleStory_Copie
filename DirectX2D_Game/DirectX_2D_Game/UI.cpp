@@ -165,11 +165,7 @@ void CUI::Render(HDC hDC, float fDeltaTime)
 		auto Pos = GetPos();
 		auto Size = GetSize();
 
-		/*MoveToEx(hDC, Pos.x, Pos.y, NULL);
-		LineTo(hDC, Pos.x + Size.x, Pos.y);
-		LineTo(hDC, Pos.x + Size.x, Pos.y + Size.y);
-		LineTo(hDC, Pos.x, Pos.y + Size.y);
-		LineTo(hDC, Pos.x, Pos.y);*/
+	
 	}
 }
 

@@ -27,12 +27,8 @@ CObj::~CObj(){
 	Safe_Release_VecList(m_ColliderList);
 	SAFE_RELEASE(m_pTexture);
 
-	if (_Texture) {
-	     // _Texture->Release();  
-		//delete _Texture;
-	}
- 	/*SAFE_DELETE(m_pScene);
-	SAFE_DELETE(m_pLayer); */
+	
+ 
 }
 CObj::CObj(const CObj & Obj)
 {
@@ -217,26 +213,7 @@ bool CObj::AddAnimationClip(const wstring& strName,
 
 	return true; 
 }
-//bool CObj::AddAnimationClip(const wstring& strName, ANIMATION_TYPE eType, ANIMATION_OPTION eOption, float fAnimationLimitTime, int iFrameMaxX, int iFrameMaxY, int iStartX, int iStartY, int iLengthX, int iLengthY, float fOptionLimitTime, const wstring& strTexKey, const vector<wstring>& vecFileName, const wstring& strPathKey)
-//{
-//	if (!m_pAnimation)
-//		return false;
-//
-//	m_pAnimation->AddClip(strName,
-//		eType, eOption,
-//		fAnimationLimitTime,
-//		iFrameMaxX,
-//		iFrameMaxY,
-//		iStartX, iStartY,
-//		iLengthX,
-//		iLengthY,
-//		fOptionLimitTime,
-//		strTexKey,
-//		vecFileName, strPathKey);
-//
-//
-//	return true;
-//}
+
 void CObj::SetAnimationClipColorkey(const wstring& strClip, unsigned char r, unsigned char g, unsigned char b)
 {
 	if(m_pAnimation)
@@ -246,10 +223,7 @@ void CObj::SetAnimationClipColorkey(const wstring& strClip, unsigned char r, uns
 
 void CObj::SetTexture(Texture* pTexture){
 	_Texture = pTexture;
-	/*SAFE_RELEASE(m_pTexture);
-	m_pTexture = pTexture;*/
-	/*if (pTexture)
-		pTexture->AddRef();*/
+
 }
 
 void CObj::SetTexture(const wstring& strKey, const wchar_t* pFileName, const wstring& strPathKey){

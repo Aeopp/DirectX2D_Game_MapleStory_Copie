@@ -8,9 +8,7 @@
 #include "CSceneManager.h"
 #include "CCore.h"
 #include "Dungeon.h"
-
 #include "Input.h"
-
 #include "UIPanel.h"
 #include "UIButton.h"
 #include "Portal.h"

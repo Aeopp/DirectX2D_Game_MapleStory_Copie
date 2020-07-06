@@ -36,11 +36,6 @@ bool CDungeonScecne::Init()
 	
 	auto* pPlayer = CObj::CreateObj<CPlayer>(L"Player", pLayer);
 	pPlayer->SetWeapon(pLayer);
-	/*pPlayer->m_iHP = PlayerInfo::PlayerHP;
-	pPlayer->Level = PlayerInfo::PlayerLevel;
-	*/
-	/*MonstersSpawn<CPig>(pLayer, L"Pig", { {1040,472},{1236,472}
-		,{938,197},{1298,197},{1393,197} }, { 0,0 });*/
 
 	MonstersSpawn<CSlime>(CurrentDefaultLayer, L"Slime", { { 421,593 },{ 552,593 } }, { 0,2250 });
 	MonstersSpawn<CSlime>(CurrentDefaultLayer, L"Slime", { { 1840,501 },{ 2004,501 },{ 2103,501 } }, { 0,2250 });
@@ -92,9 +87,8 @@ bool CDungeonScecne::Init()
 
 	Portal* pPortal = CObj::CreateObj<Portal>(L"Portal2", pStageLayer);
 	pPortal->SetPos(2100, 300);
-	pPortal->PortalEvent = []() {	GET_SINGLE(CSceneManager)->CreateScene<CIngameScene>(SC_NEXT);
-	/*PlayerInfo::PlayerHP = pPlayer->m_iHP;
-	PlayerInfo::PlayerLevel = pPlayer->Level;*/ };
+	pPortal->PortalEvent = []() {	GET_SINGLE(CSceneManager)->CreateScene<CIngameScene>(SC_NEXT); };
+
 	SAFE_RELEASE(pPortal);
 	SAFE_RELEASE(pStage);
 	SAFE_RELEASE(Ground);
@@ -129,29 +123,6 @@ void CDungeonScecne::EndButtonCallback(float fTime)
 
 void CDungeonScecne::StageClear()& {
 
-	/*static uint32_t SpawnCount = 0;
-	CScene::StageClear();
-
-	switch (SpawnCount)
-	{
-	case 0:
-		MonstersSpawn<CMushroom>(CurrentDefaultLayer, L"Mushroom", { { 1057, 900 },{ 1256,900 },{ 1400,900 } }, { 838,1443 });
-		MonstersSpawn<CMushroom>(CurrentDefaultLayer, L"Mushroom", { { 176, 1052 },{ 399,1052 }
-		,{ 838,1052 } }, { 40,2163 });
-		break;
-	case 1:
-		MonstersSpawn<CSlime>(CurrentDefaultLayer, L"Slime", { { 421,593 },{ 552,593 } }, { 280,680 });
-		MonstersSpawn<CSlime>(CurrentDefaultLayer, L"Slime", { { 1840,501 },{ 2004,501 },{ 2103,501 } }, { 1739,2221 });
-		break;
-	case 2:
-		MonstersSpawn<CPig>(CurrentDefaultLayer, L"Pig", { { 1040,472 },{ 1236,472 }
-				,{ 938,197 },{ 1298,197 },{ 1393,197 } }, { 837,1440 });
-		break;
-	default:
-		break;
-	}
-	
-	SpawnCount = (SpawnCount + 1) % 3;*/
 }
 
 int CDungeonScecne::Update(float fDeltaTime)
