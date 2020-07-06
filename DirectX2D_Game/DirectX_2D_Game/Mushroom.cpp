@@ -94,12 +94,11 @@ bool CMushroom::Init()
 		AddAnimationClip(L"MushroomWalkright", AT_ATLAS, AO_LOOP,
 			1.f, 1, 3, 0, 0, 1, 3, 0.f, L"MushroomWalkright", L"Animation\\Monster\\Mushroom\\Right\\WALK.bmp");
 		SetAnimationClipColorkey(L"MushroomWalkright", 255, 0, 255);
-	}
+	};
 
 	SAFE_RELEASE(pAni);
 
 	m_iDir = 1;
-
 
 	SoundManager::Instance().Load(HitSoundKey.data());
 	SoundManager::Instance().Load(DieSoundKey.data());
@@ -230,7 +229,6 @@ void CMushroom::ReleaseHitEvent(CObj* const Target, float fDeltaTime)
 void CMushroom::FirstHitEvent(CObj* const Target, float fDeltaTime)
 {
 	CMonster::FirstHitEvent(Target, fDeltaTime);
-
 };
 
 

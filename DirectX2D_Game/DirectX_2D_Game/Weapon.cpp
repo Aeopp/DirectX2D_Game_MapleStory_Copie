@@ -28,8 +28,7 @@ void Weapon::Hit(CObj* const Target, float fDeltaTime)
 		int CurrentDamage = CMath::GetRandomNumber(left, right);
 		Monster->GetDamage(CurrentDamage);
 
-		Monster->GetHitSoundKey().data();
-
+		SoundManager::Instance().Play(Monster->GetHitSoundKey().data());
 
 		auto DamagePos = Target->GetPos();
 		DamagePos.y -= 100;

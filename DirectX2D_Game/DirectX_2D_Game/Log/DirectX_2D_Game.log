@@ -1,4 +1,207 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8004: Intermediate 디렉터리가 슬래시로 끝나지 않습니다. Intermediate 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  CCore.cpp
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\SoundManager.h(21,2): warning C4099: 'std::default_delete<SoundManager>': 처음에는 'struct'을(를) 사용하여 형식 이름을 표시했는데 이제는 'class'을(를) 사용하여 표시합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(760): message : 'std::default_delete<SoundManager>' 선언을 참조하십시오.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CCore.cpp(69,46): warning C4244: '인수': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CCore.cpp(69,28): warning C4244: '인수': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CCore.cpp(403,19): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CCore.cpp(403,31): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+  CDungeonScecne.cpp
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\SoundManager.h(21,2): warning C4099: 'std::default_delete<SoundManager>': 처음에는 'struct'을(를) 사용하여 형식 이름을 표시했는데 이제는 'class'을(를) 사용하여 표시합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(760): message : 'std::default_delete<SoundManager>' 선언을 참조하십시오.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CScene.h(91,24): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CDungeonScecne.cpp(42): message : 컴파일되는 함수 템플릿 인스턴스화 'void CScene::MonstersSpawn<CSlime>(CLayer *,const std::wstring &,const std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>> &,std::pair<float,float>)'에 대한 참조를 확인하세요.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CScene.h(91,21): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CDungeonScecne.cpp(42): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CDungeonScecne.cpp(42): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,1): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(163,47): warning C4244: '초기화 중': '_Ty'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(234): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(234): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(315): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,_Ty,_Ty,_Ty,0>(_Tag,_This2 &&,_Ty &&,_Ty &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(315): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,_Ty,_Ty,_Ty,0>(_Tag,_This2 &&,_Ty &&,_Ty &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CDungeonScecne.cpp(85): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<int,int,int,0>(_This2 &&,int &&,int &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _This2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CDungeonScecne.cpp(69): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<int,int,int,0>(_This2 &&,int &&,int &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _This2=int
+          ]
+  CDungeonScene2.cpp
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\SoundManager.h(21,2): warning C4099: 'std::default_delete<SoundManager>': 처음에는 'struct'을(를) 사용하여 형식 이름을 표시했는데 이제는 'class'을(를) 사용하여 표시합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(760): message : 'std::default_delete<SoundManager>' 선언을 참조하십시오.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CScene.h(91,24): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CDungeonScene2.cpp(43): message : 컴파일되는 함수 템플릿 인스턴스화 'void CScene::MonstersSpawn<CMushroom>(CLayer *,const std::wstring &,const std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>> &,std::pair<float,float>)'에 대한 참조를 확인하세요.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CScene.h(91,21): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CDungeonScene2.cpp(43): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CDungeonScene2.cpp(42): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,1): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(163,47): warning C4244: '초기화 중': '_Ty'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(234): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(234): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(315): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,_Ty,_Ty,_Ty,0>(_Tag,_This2 &&,_Ty &&,_Ty &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\tuple(315): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,_Ty,_Ty,_Ty,0>(_Tag,_This2 &&,_Ty &&,_Ty &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CDungeonScene2.cpp(77): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<int,int,int,0>(_This2 &&,int &&,int &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _This2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CDungeonScene2.cpp(76): message : 컴파일되는 함수 템플릿 인스턴스화 'std::tuple<float,float,float>::tuple<int,int,int,0>(_This2 &&,int &&,int &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _This2=int
+          ]
   CIngameScene.cpp
 D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
 D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -12,6 +215,222 @@ D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\
 D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
 D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\SoundManager.h(21,2): warning C4099: 'std::default_delete<SoundManager>': 처음에는 'struct'을(를) 사용하여 형식 이름을 표시했는데 이제는 'class'을(를) 사용하여 표시합니다.
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(760): message : 'std::default_delete<SoundManager>' 선언을 참조하십시오.
+  CPig.cpp
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\SoundManager.h(21,2): warning C4099: 'std::default_delete<SoundManager>': 처음에는 'struct'을(를) 사용하여 형식 이름을 표시했는데 이제는 'class'을(를) 사용하여 표시합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(760): message : 'std::default_delete<SoundManager>' 선언을 참조하십시오.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CPig.cpp(37,10): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CPig.cpp(124,43): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CPig.cpp(38): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\CPig.cpp(38): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,1): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+  CScene.cpp
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+  CSceneManager.cpp
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+  Monster.cpp
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\SoundManager.h(21,2): warning C4099: 'std::default_delete<SoundManager>': 처음에는 'struct'을(를) 사용하여 형식 이름을 표시했는데 이제는 'class'을(를) 사용하여 표시합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(760): message : 'std::default_delete<SoundManager>' 선언을 참조하십시오.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Monster.cpp(93,43): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Mushroom.cpp
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\SoundManager.h(21,2): warning C4099: 'std::default_delete<SoundManager>': 처음에는 'struct'을(를) 사용하여 형식 이름을 표시했는데 이제는 'class'을(를) 사용하여 표시합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(760): message : 'std::default_delete<SoundManager>' 선언을 참조하십시오.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Mushroom.cpp(22,10): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Mushroom.cpp(125,43): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Mushroom.cpp(23): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Mushroom.cpp(23): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,1): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+  Obj.cpp
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(120,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(120,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(121,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(121,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(122,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(122,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(123,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(123,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(124,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(124,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(130,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(130,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(130,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(130,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(131,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(131,37): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(131,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.cpp(131,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Player.cpp
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Player.cpp(55,22): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Player.cpp(496,22): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Player.cpp(495,37): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Player.cpp(519,53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Player.cpp(519,47): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Slime.cpp
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\SoundManager.h(21,2): warning C4099: 'std::default_delete<SoundManager>': 처음에는 'struct'을(를) 사용하여 형식 이름을 표시했는데 이제는 'class'을(를) 사용하여 표시합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(760): message : 'std::default_delete<SoundManager>' 선언을 참조하십시오.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Slime.cpp(22,10): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Slime.cpp(127,43): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Slime.cpp(24): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Slime.cpp(24): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,1): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
   StartScene.cpp
 D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
 D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -29,6 +448,47 @@ D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\
 D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\StartScene.cpp(38,38): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\StartScene.cpp(47,35): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\StartScene.cpp(46,44): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Weapon.cpp
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\helper.h(9,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\D3DTexture.h(45,21): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(71,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(72,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(81,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Types.h(82,9): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(101,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(31,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\MoveObj.h(43,1): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\SoundManager.h(21,2): warning C4099: 'std::default_delete<SoundManager>': 처음에는 'struct'을(를) 사용하여 형식 이름을 표시했는데 이제는 'class'을(를) 사용하여 표시합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(760): message : 'std::default_delete<SoundManager>' 선언을 참조하십시오.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Weapon.cpp(28,52): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Weapon.cpp(28,46): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Weapon.cpp(29,22): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(152,16): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Weapon.cpp(69): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Weapon.cpp(69): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
   코드를 생성하고 있습니다...
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(237): warning C4715: 'CObj::GetCollisionRect': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(188): warning C4715: '`CObj::FindHitList'::`2'::<lambda_1>::operator()<std::pair<CObj *,enum ECOLLISION_STATE> >': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(237): warning C4715: 'CObj::GetCollisionRect': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\Obj.h(188): warning C4715: '`CObj::FindHitList'::`2'::<lambda_1>::operator()<std::pair<CObj *,enum ECOLLISION_STATE> >': 모든 제어 경로에서 값을 반환하지는 않습니다.
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8004: Intermediate 디렉터리가 슬래시로 끝나지 않습니다. Intermediate 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
   DirectX_2D_Game.vcxproj -> D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DirectX_2D_Game\\Game.exe

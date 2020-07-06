@@ -22,8 +22,8 @@ public:
 	bool m_bAttack;
 	RECTANGLE Pow = { 0,0,0,0 };
 	void Attack()&;
-	static inline std::string_view HitSoundKey = "Sound\\Damage2.mp3"sv;
-	static inline std::string_view DieSoundKey = "Sound\\Die3.mp3"sv;
+	static inline std::string_view HitSoundKey = "Sound\\Damage4.mp3"sv;
+	static inline std::string_view DieSoundKey = "Sound\\Die5.mp3"sv;
 	virtual bool Init();
 	virtual CPig* Clone();
 	virtual void Input(float fDeltaTime);
