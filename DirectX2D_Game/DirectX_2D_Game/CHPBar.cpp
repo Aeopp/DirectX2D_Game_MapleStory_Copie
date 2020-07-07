@@ -3,6 +3,8 @@
 #include "CCore.h"
 #include <string>
 #include "DataTable.h"
+#include "Camera.h"
+
 bool CHPBar::Init()
 {
     bCollision = false;
@@ -27,10 +29,13 @@ void CHPBar::Render(HDC hDC, float fDeltaTime)
     {
         SetTextColor(hDC, RGB(255, 255, 255));
         SetBkMode(hDC, TRANSPARENT);
-        LONG X = 0 + 40;
+
+        SetPos(GetPos().x, GET_SINGLE(CCamera)->GetClientRect().iH - GetSize().y);
+        /*LONG X = 0 + 40;
         LONG Y = (LONG)GET_SINGLE(CCore)->GetResolution().iH - 53 / 2;
-        LONG Size = 50;
-        RECT rt = RECT{ X,Y,X + Size,Y + Size };
+
+        LONG Size = 50;*/
+        //RECT rt = RECT{ X,Y,X + Size,Y + Size };
     }
 }
 

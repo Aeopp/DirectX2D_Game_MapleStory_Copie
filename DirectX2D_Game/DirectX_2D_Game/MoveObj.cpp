@@ -24,7 +24,8 @@ CMoveObj::CMoveObj(const CMoveObj& Obj) :
 
 
 }
-void CMoveObj::HPBarSpawn( POSITION Pos, _SIZE Size,const std::pair<std::wstring, std::wstring>& Objectnames, const std::pair<std::wstring, std::wstring> & FileNames,
+void CMoveObj::HPBarSpawn( POSITION Pos, _SIZE Size,
+	const std::pair<std::wstring, std::wstring>& Objectnames, const std::pair<std::wstring, std::wstring> & FileNames,
 	CLayer* UILayer)
 {
 	auto [HPBackGround, HPBar] = this->CurrentHPBar;
@@ -53,8 +54,7 @@ void CMoveObj::HPBarSpawn( POSITION Pos, _SIZE Size,const std::pair<std::wstring
 
 	SAFE_RELEASE(HPBackGround);
 	SAFE_RELEASE(HPBar);
-}
-;
+};
 
 void CMoveObj::MoveXFromSpeed(float fDeltaTime, MOVE_DIR m_eDir)
 {

@@ -71,7 +71,7 @@ bool CMushroom::Init()
 		AddAnimationClip(L"MushroomHitright", AT_ATLAS, AO_ONCE_RETURN,
 			0.3f, 1, 1, 0, 0, 1, 1, 0.f, L"MushroomHitright", L"Animation\\Monster\\Mushroom\\Right\\HIT.bmp");
 		SetAnimationClipColorkey(L"MushroomHitright", 255, 0, 255);
-	}
+	};
 
 	//JUMP
 	{

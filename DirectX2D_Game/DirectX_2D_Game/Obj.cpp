@@ -223,7 +223,6 @@ void CObj::SetAnimationClipColorkey(const wstring& strClip, unsigned char r, uns
 
 void CObj::SetTexture(Texture* pTexture){
 	_Texture = pTexture;
-
 }
 
 void CObj::SetTexture(const wstring& strKey, const wchar_t* pFileName, const wstring& strPathKey){
@@ -231,13 +230,13 @@ void CObj::SetTexture(const wstring& strKey, const wchar_t* pFileName, const wst
 		m_pTexture = GET_SINGLE(CResourcesManager)->LoadTexture(strKey,pFileName,strPathKey);
 
 		if (auto GFX = GET_SINGLE(CCore)->m_Graphics;
-			GFX!=nullptr ) {
+			GFX != nullptr) {
 			if (auto Device = GFX->GetDevice(); Device != nullptr) {
 
 				std::wstring path = GET_SINGLE(CPathManager)->GetFullPath(pFileName, strPathKey);
 				_Texture->LoadTexture(GET_SINGLE(CCore)->m_Graphics->GetDevice(), path);
 			}
-		}
+		};
 }
 
 void CObj::SetColorKey(unsigned char r, unsigned char g, unsigned char b)
@@ -419,14 +418,14 @@ void CObj::Render(HDC hDC, float fDeltaTime)
 				m_tSize.y + tPos.y });
 
 			// _Texture->SetSrcRect({ 0,0,m_tSize.x,m_tSize.y });
-			_Texture->SetSrcRect({ tImagePos.x,tImagePos.y,tImagePos.x+m_tSize.x,tImagePos.y+m_tSize.y });
+			_Texture->SetSrcRect({ tImagePos.x,tImagePos.y,tImagePos.x + m_tSize.x,tImagePos.y + m_tSize.y });
 
 			if (auto GFX = GET_SINGLE(CCore)->m_Graphics;
 				GFX != nullptr) {
 				GFX->GetMeshRef().Render(*_Texture);
 			}
 		}
-	}
+	};
 
 	if (GET_SINGLE(CCore)->GetInst()->bDebug == true) {
 		if (GetTag() == L"StageColl") {
