@@ -24,5 +24,8 @@ public:
 	void ReleaseHitEvent(CObj* const Target, float fDeltaTime)override;
 	virtual void Render(HDC hDC, float fDeltaTime);
 	virtual CUIButton* Clone();
+
+	virtual void MouseClickEvent(CObj* const Target, float fDeltaTime)override;
+
 };
 

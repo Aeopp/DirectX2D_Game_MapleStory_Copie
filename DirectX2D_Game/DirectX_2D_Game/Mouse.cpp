@@ -1,5 +1,6 @@
 #include "Mouse.h"
 #include "CCore.h"
+#include "SoundManager.h"
 
 CMouse::CMouse()
 	:CUI()
@@ -22,9 +23,9 @@ bool CMouse::Init()
 	POINT pt; 
 	GetCursorPos(&pt);
 	ScreenToClient(WINDOWHANDLE, &pt);
-
 	m_tPos = pt; 
 
+	
 	return true;
 }
 

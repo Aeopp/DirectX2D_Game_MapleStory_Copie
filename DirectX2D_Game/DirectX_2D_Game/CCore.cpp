@@ -62,6 +62,8 @@ bool CCore::Init(HINSTANCE hInst)
 		m_Graphics->Initialzie();
 	}
 
+	SoundManager::Instance().Init();
+
 	if (!GET_SINGLE(CInput)->Init(m_hWnd)) {
 		return false;
 	}
@@ -75,7 +77,6 @@ bool CCore::Init(HINSTANCE hInst)
 	};
 
 	//Sound Manager Init
-	SoundManager::Instance().Init();
 
 	return true ;
 }

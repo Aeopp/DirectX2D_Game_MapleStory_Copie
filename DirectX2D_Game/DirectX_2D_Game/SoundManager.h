@@ -8,7 +8,7 @@ class SoundManager : public SingleTon<SoundManager>
 public:
 	using SoundType = std::tuple<FMOD::System*, FMOD::Sound*, FMOD::Channel*>;
 	std::unordered_map<std::string, SoundType> Sounds;
-	static inline constexpr float DefaultVolume = 30.f;
+	static inline constexpr float DefaultVolume = 1.f;
 	FMOD::System* FMOD_System = nullptr;
 public:
 	bool Play(const std::string& SoundKey,bool IsBgm = false,const float Volume= DefaultVolume);
@@ -16,6 +16,7 @@ public:
 	bool Init();
 	bool Frame(const float DeltaTime);
 	bool Release();
+	bool IsPlay(const std::string& SoundKey);
 private:
 	std::string CurrentBgmKey;
 	DECLARE_SINGLETON(SoundManager)

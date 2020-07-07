@@ -11,12 +11,13 @@ void CMonster::FirstHitEvent(CObj*const  Target, float fDeltaTime)
 	if (Target->GetTag() == L"Player") {
 		//MessageBox(WINDOWHANDLE, L"공격!", L"공격!", NULL); 
 	};
+	if (Target->GetTag() == L"Mouse") {
+		
+	}
 }
 
 CMonster::CMonster() {
-
 	CollisionTag = L"Monster";
-
 }
 
 
@@ -24,13 +25,11 @@ void CMonster::ReleaseHitEvent(CObj* const Target, float fDeltaTime)
 {
 	if (bMonsterLife == false)return;
 
-		CMoveObj::ReleaseHitEvent(Target, fDeltaTime);
-	
+	CMoveObj::ReleaseHitEvent(Target, fDeltaTime);
 }
 
 int CMonster::Update(float fDeltaTime)
 {
-
 	Invincible_time -= fDeltaTime;
 
 	CMoveObj::Update(fDeltaTime);
@@ -61,15 +60,11 @@ int CMonster::Update(float fDeltaTime)
 
 void CMonster::Hit(CObj* const Target, float fDeltaTime)
 {
-
-		CMoveObj::Hit(Target, fDeltaTime);
-		
-
+	CMoveObj::Hit(Target, fDeltaTime);
 }
 
 int CMonster::LateUpdate(float fDeltaTime)
 {
-	
 	CMoveObj::LateUpdate(fDeltaTime);
 	return 0;  
 }

@@ -17,3 +17,8 @@ public:
 	virtual CStaticObj* Clone() = 0;
 };
 
+
+
+
+
+

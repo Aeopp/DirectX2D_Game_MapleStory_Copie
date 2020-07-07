@@ -20,21 +20,34 @@
 #include "CMath.h"
 #include "CHPBar.h"
 #include "DataTable.h"
+#include "SoundManager.h"
 CPlayer::CPlayer()
 {};
 CPlayer::~CPlayer() noexcept
 {};
 
-CPlayer::CPlayer(const CPlayer& Player) : 
-	CMoveObj(Player){
+CPlayer::CPlayer(const CPlayer& Player) :
+	CMoveObj(Player) {
 	*this = Player;
-}
+};
 
-void CPlayer::Attack()&
+void CPlayer::Attack(const uint8_t PlayerAttackIndex)&
 {
+	std::wstring AnimStr = L"PlayerAttack" + std::to_wstring(PlayerAttackIndex);
+
+	if (m_iDir == -1)
+		m_pAnimation->ChangeClip(AnimStr+L"Left");
+
+	if (m_iDir == 1)
+		m_pAnimation->ChangeClip(AnimStr + L"Right");
+
 	m_bAttack = true;
 	if (CurWeapon != nullptr) {
 		CurWeapon->bAttack = true;
+
+		if(CurWeapon->CollDown<=0.f)
+		SoundManager::Instance().Play(AttackSoundKey[PlayerAttackIndex - 1].data(),false,2.f);
+
 		CurWeapon->CollDown = 0.3f;
 	};
 };
@@ -50,7 +63,6 @@ bool CPlayer::Init() {
 	SetTexture(L"Player", L"Animation/Player/Left/DEAD.bmp");
 	SetColorKey(255, 0, 255);
 	
-	//SetCorrectionRenderToCollision(RECTANGLE{110,54,151,128});
 	DefaultHP = 100'000;
 	m_iHP = PlayerInfo::PlayerHP;
 	Level = PlayerInfo::PlayerLV;
@@ -126,13 +138,13 @@ bool CPlayer::Init() {
 
 	// Swing1
 	{
-		AddAnimationClip(L"PlayerAttackLeft", AT_ATLAS, AO_ONCE_RETURN,
-			0.5f, 1, 3, 0, 0, 1, 3, 0.f, L"PlayerAttackLeft", L"Animation\\Player\\Left\\SWING1.bmp");
-		SetAnimationClipColorkey(L"PlayerAttackLeft", 255, 0, 255);
+		AddAnimationClip(L"PlayerAttack1Left", AT_ATLAS, AO_ONCE_RETURN,
+			0.5f, 1, 3, 0, 0, 1, 3, 0.f, L"PlayerAttack1Left", L"Animation\\Player\\Left\\SWING1.bmp");
+		SetAnimationClipColorkey(L"PlayerAttack1Left", 255, 0, 255);
 
-		AddAnimationClip(L"PlayerAttackRight", AT_ATLAS, AO_ONCE_RETURN,
-			0.5f, 1, 3, 0, 0, 1, 3, 0.f, L"PlayerAttackRight", L"Animation\\Player\\Right\\SWING1.bmp");
-		SetAnimationClipColorkey(L"PlayerAttackRight", 255, 0, 255);
+		AddAnimationClip(L"PlayerAttack1Right", AT_ATLAS, AO_ONCE_RETURN,
+			0.5f, 1, 3, 0, 0, 1, 3, 0.f, L"PlayerAttack1Right", L"Animation\\Player\\Right\\SWING1.bmp");
+		SetAnimationClipColorkey(L"PlayerAttack1Right", 255, 0, 255);
 	}
 
 	// Swing2
@@ -168,24 +180,16 @@ bool CPlayer::Init() {
 		SetAnimationClipColorkey(L"PlayerAttack4Right", 255, 0, 255);
 	}
 
-	// //Death 
-	//{
-	//	vector<wstring> vecFileName;
-
-	//	for (int i = 1; i <= 5; ++i) {
-	//		wchar_t strFileName[MAX_PATH] = {};
-	//		wsprintf(strFileName, L"PlayerDeath", L"Animation\\Player\\Frame\\%d.bmp", i);
-	//		vecFileName.push_back(strFileName);
-	//	}
-
-	///*	AddAnimationClip(L"PlayerDeath", AT_FRAME, AO_ONCE_RETURN,
-	//		1.f, 1, 5, 0, 0, 1, 5, 0.f, L"PlayerDeath", vecFileName);*/
-	//	SetAnimationClipColorkey(L"PlayerDeath", 255, 0, 255);
-	//}
-
 	SAFE_RELEASE(pAni);
 
 	m_iDir = 1;
+
+	for (auto& SoundKey : AttackSoundKey) {
+		SoundManager::Instance().Load(SoundKey.data());
+	};
+
+	SoundManager::Instance().Load(this->HitSoundKey.data());
+	SoundManager::Instance().Load(this->JumpSoundKey.data());
 
 	return true;
 }
@@ -240,56 +244,29 @@ void CPlayer::Input(float fDeltaTime)
 		m_bMove = false;
 	}
 
-
-	if (KEYDOWN("Attack") && bGround) {
-		Attack();
-
-		if(m_iDir==-1)
-		m_pAnimation->ChangeClip(L"PlayerAttackLeft");
-
-		if (m_iDir == 1)
-		m_pAnimation->ChangeClip(L"PlayerAttackRight");
+	if (KEYDOWN("Attack1") && bGround) {
+		Attack(1);
 	}
 
 	if (KEYDOWN("Attack2") && bGround) {
-		Attack();
-
-		if (m_iDir == -1)
-			m_pAnimation->ChangeClip(L"PlayerAttack2Left");
-
-		if (m_iDir == 1)
-			m_pAnimation->ChangeClip(L"PlayerAttack2Right");
+		Attack(2);
 	}
 
 	if (KEYDOWN("Attack3") && bGround) {
-		Attack();
-
-		if (m_iDir == -1)
-			m_pAnimation->ChangeClip(L"PlayerAttack3Left");
-
-		if (m_iDir == 1)
-			m_pAnimation->ChangeClip(L"PlayerAttack3Right");
+		Attack(3);
 	}
 
 	if (KEYUP("Attack4") && bGround) {
-		Attack();
-
-		if (m_iDir == -1)
-			m_pAnimation->ChangeClip(L"PlayerAttack4Left");
-
-		if (m_iDir == 1)
-			m_pAnimation->ChangeClip(L"PlayerAttack4Right");
-
-		
+		Attack(4);
 	}
-
 	
-	if (KEYDOWN("Skill1")) {
+	if (KEYUP("Skill1")) {
 		MessageBox(NULL, L"Skill1", L"Skill1", MB_OK);
-	}
+	};
+
 	if (KEYUP("Jump") ) {
 		JumpHit = false;
-
+		
 		if (bRope == true) {
 			return; 
 		}
@@ -303,6 +280,11 @@ void CPlayer::Input(float fDeltaTime)
 			MovePos.left = 150.f;
 			if (m_iDir == 1)
 			MovePos.right = 150.f;
+		}
+		const auto& SoundKey = JumpSoundKey.data();
+
+		/*if (SoundManager::Instance().IsPlay(SoundKey) == false)*/ {
+			SoundManager::Instance().Play(SoundKey,false,2.f);
 		}
 		bJump = true;
 	}
@@ -321,11 +303,13 @@ int CPlayer::Update(float fDeltaTime)
 	if (bJump == true  &&
 		m_bAttack==false && bRope==false  && JumpHit==false ) {
 
+	
 		if (m_iDir == -1){
 			m_pAnimation->ChangeClip(L"PlayerJumpLeft");
 			m_pAnimation->SetDefaultClip(L"PlayerJumpLeft");
 		}
 		else {
+			
 			m_pAnimation->ChangeClip(L"PlayerJumpRight");
 			m_pAnimation->SetDefaultClip(L"PlayerJumpRight");
 		}
@@ -350,7 +334,6 @@ int CPlayer::Update(float fDeltaTime)
 	   m_pAnimation->ChangeClip(L"PlayerRope");
 		m_pAnimation->SetDefaultClip(L"PlayerRope");
 		
-		// 로프애니메이션 재생
 	}
 	return 0;
 }
@@ -384,61 +367,6 @@ void CPlayer::Render(HDC hDC, float fDeltaTime)
 	}
 
 	CObj::Render(nullptr, fDeltaTime);
-
-	//if (m_pTexture) {
-
-	//	/*Rectangle(hDC, tPos.x, tPos.y, tPos.x + m_tSize.x, tPos.y + m_tSize.y);
-	//	*/
-	//	POSITION tPos = m_tPos - m_tSize * m_tPivot;
-	//	tPos -= GET_SINGLE(CCamera)->GetPos();
-
-	//	POSITION tImagePos;
-
-	//	if (m_pAnimation) {
-	//		PANIMATIONCLIP pClip =
-	//			m_pAnimation->GetCurrentClip();
-
-	//		if (pClip->eType == AT_ATLAS) {
-	//			tImagePos.x = pClip->iFrameX * pClip->tFrameSize.x;
-	//			tImagePos.y = pClip->iFrameY * pClip->tFrameSize.y;
-	//		}
-	//	}
-	//	tImagePos += m_tImageOffset;
-
-	//	if (m_pTexture->bAlpha == true)
-	//	{
-	//		BLENDFUNCTION ftn;
-	//		ftn.BlendOp = AC_SRC_OVER;
-	//		ftn.BlendFlags = 0;
-	//		ftn.SourceConstantAlpha = 255;
-	//		ftn.AlphaFormat = AC_SRC_ALPHA;
-	//		AlphaBlend(hDC, tPos.x, tPos.y, m_tSize.x,
-	//			m_tSize.y,
-	//			m_pTexture->GetDC(), tImagePos.x, tImagePos.y, m_tSize.x, m_tSize.y, ftn);
-	//	}
-	//	else
-	//	{
-	//		if (m_pTexture->GetColorKeyEnable() == true) {
-	//			TransparentBlt(hDC, tPos.x, tPos.y, m_tSize.x,
-	//				m_tSize.y, m_pTexture->GetDC(), tImagePos.x, tImagePos.y,
-	//				m_tSize.x, m_tSize.y, m_pTexture->GetColorKey());
-	//		}
-	//		else {
-	//			BitBlt(hDC, tPos.x, tPos.y,
-	//				m_tSize.x, m_tSize.y, m_pTexture->GetDC(), tImagePos.x, tImagePos.y,
-	//				SRCCOPY);
-	//		}
-	//		/*BLENDFUNCTION ftn;
-	//		ftn.BlendOp = AC_SRC_OVER;
-	//		ftn.BlendFlags = 0;
-	//		ftn.SourceConstantAlpha = 255;
-	//		ftn.AlphaFormat = AC_SRC_OVER;
-
-	//		AlphaBlend(hDC, tPos.x, tPos.y, m_tSize.x,
-	//			m_tSize.y,
-	//			m_pTexture->GetDC(), tImagePos.x, tImagePos.y, m_tSize.x, m_tSize.y, ftn);*/
-	//	}
-	//};
 
 	if (GET_SINGLE(CCore)->GetInst()->bDebug == true) {
 		if (auto IsPlayer = dynamic_cast<CPlayer*>(this); IsPlayer != nullptr) {
@@ -515,6 +443,7 @@ void CPlayer::Hit(CObj* const Target, float fDeltaTime)
 
 	if (auto IsMonster = dynamic_cast<CMonster*>(Target);  
 		IsMonster != nullptr&&HitDelta<0.f && IsMonster->m_bEnable==true) {
+
 		auto [left, right] = IsMonster->DamageRange;
 		auto CurrentDamage = CMath::GetRandomNumber(left, right);
 		// m_iHP -= CurrentDamage;
@@ -523,6 +452,9 @@ void CPlayer::Hit(CObj* const Target, float fDeltaTime)
 		DamagePos.y -= 100;
 		DamagePos.x -= 30;
 		GET_SINGLE(CSceneManager)->CurrentDamagePont->DamagePrint(DamagePos, CurrentDamage);
+
+		SoundManager::Instance().Play(this->HitSoundKey.data());
+
 
 		if (0 < Target->GetPos().x - GetPos().x) {
 			MovePos.left = 100;

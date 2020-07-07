@@ -12,6 +12,7 @@ public:
 	std::pair<float, float> MonsterXRange;
 	void FirstHitEvent(CObj* const Target, float  fDeltaTime)override; 
 	void ReleaseHitEvent(CObj* const Target, float  fDeltaTime)override;
+
 	int Update(float fDeltaTime) override;
 	
 	void Hit(CObj* const Target, float  fDeltaTime)override;

@@ -28,7 +28,6 @@ void Weapon::Hit(CObj* const Target, float fDeltaTime)
 		int CurrentDamage = CMath::GetRandomNumber(left, right);
 		Monster->GetDamage(CurrentDamage);
 
-		SoundManager::Instance().Play(Monster->GetHitSoundKey().data());
 
 		auto DamagePos = Target->GetPos();
 		DamagePos.y -= 100;
@@ -40,6 +39,8 @@ void Weapon::Hit(CObj* const Target, float fDeltaTime)
 			if (auto IsLevelUp = dynamic_cast<CMoveObj*>(Owner); IsLevelUp != nullptr) {
 				IsLevelUp->Level += 1;
 			}
+
+			SoundManager::Instance().Play(Monster->GetDieSoundKey().data());
 
 			Monster->CurrentState = EState::DIE;
 			Monster->StateRemaining = 0.5f;
@@ -54,6 +55,7 @@ void Weapon::Hit(CObj* const Target, float fDeltaTime)
 
 		}
 		else if (Monster->CurrentState != EState::DIE) {
+			SoundManager::Instance().Play(Monster->GetHitSoundKey().data());
 			Monster->CurrentState = EState::HIT;
 			Monster->StateRemaining = 0.5f;
 		}

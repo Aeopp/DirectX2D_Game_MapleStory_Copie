@@ -1,7 +1,7 @@
 #include "SoundManager.h"
 
 bool SoundManager::Play(const std::string& SoundKey,
-	bool IsBgm,const float Volume) {
+	bool IsBgm, const float Volume) {
 
 	if (Sounds.empty() || (IsBgm == true && CurrentBgmKey == SoundKey)) {
 		return false;
@@ -21,7 +21,7 @@ bool SoundManager::Play(const std::string& SoundKey,
 			};
 			HR = System->playSound(Sound, nullptr, false,
 				&Channel);
-			Channel->setVolume(Volume==DefaultVolume ? DefaultVolume : Volume);
+			Channel->setVolume(Volume == DefaultVolume ? DefaultVolume : Volume);
 
 			if (HR != FMOD_OK) {
 				return  false;
@@ -41,9 +41,10 @@ bool SoundManager::Play(const std::string& SoundKey,
 
 	}
 	return false;
-}
+};
 
 bool SoundManager::Load(std::string FullPath) {
+
 	if (FMOD_System == nullptr) {
 		return false;
 	};
@@ -84,6 +85,20 @@ bool SoundManager::Release()
 	}
 	Sounds.clear();
 	return true;
+}
+bool SoundManager::IsPlay(const std::string& SoundKey)
+{
+	bool bPlay{};
+
+	auto SoundIter = Sounds.find(SoundKey);
+
+	if (std::end(Sounds) != SoundIter) {
+		auto& [Key, SoundObject] = *SoundIter;
+		auto& [System, Sound, Channel] = SoundObject;
+		Channel->isPlaying(&bPlay);
+	};
+
+	return bPlay;
 }
 bool SoundManager::Init()
 {

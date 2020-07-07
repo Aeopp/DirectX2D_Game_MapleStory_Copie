@@ -104,8 +104,6 @@ bool CSlime::Init()
 	SoundManager::Instance().Load(HitSoundKey.data());
 	SoundManager::Instance().Load(DieSoundKey.data());
 
-
-
 	return true;
 };
 

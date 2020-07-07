@@ -2,6 +2,8 @@
 #include "Mouse.h"
 #include "CAnimation.h"
 #include "Layer.h"
+#include "SoundManager.h"
+
 
 DEFINTION_SINGLE(CInput)
 
@@ -10,11 +12,8 @@ bool CInput::Init(HWND hWnd)
 	m_hWnd = hWnd;
 
 	AddKey(VK_SHIFT, "Jump");
-	/*AddKey('W', "MoveFront");
-	AddKey('S', "MoveBack");*/
-	AddKey("MoveLeft", VK_LEFT);
-	AddKey("MoveRight", VK_RIGHT);
-	AddKey("Fire", 'Q');
+	AddKey(VK_LEFT,"MoveLeft");
+	AddKey(VK_RIGHT,"MoveRight");
 	AddKey(VK_CONTROL, "Skill1", '1');
 	AddKey(VK_UP, "Rope");
 	AddKey(VK_DOWN, "Rope");
@@ -25,13 +24,15 @@ bool CInput::Init(HWND hWnd)
 	AddKey(VK_CONTROL, "Attack");
 	AddKey(VK_LBUTTON, "MouseLButton");
 	AddKey('P', "Portal");
+
+	AddKey('F', "Attack1");
 	AddKey('A', "Attack2");
 	AddKey('S', "Attack3");
 	AddKey('D', "Attack4");
 
 	AddKey(VK_F6, "HPFULL");
 	AddKey(VK_F5, "Debug");
-	//AddKey(VK_F5, "StageClear");
+
 	AddKey(VK_F1, "Stage1");
 	AddKey(VK_F2, "Stage2");
 
@@ -85,7 +86,6 @@ bool CInput::Init(HWND hWnd)
 
 	m_pMouse->SetAnimationClipColorkey(L"MouseMushroom", 255, 0, 255);
 
-
 	SAFE_RELEASE(pAni);
 
 	m_pMouse->m_pAnimation->ChangeClip(L"MouseNormal");
@@ -93,6 +93,10 @@ bool CInput::Init(HWND hWnd)
 	m_pMouse->bBorder = false;
 
 	ShowCursor(false); 
+
+	SoundManager::Instance().Load(m_pMouse->ClickSoundKey.data());
+	SoundManager::Instance().Load(m_pMouse->TabSoundKey.data());
+
 	return true;
 };
 

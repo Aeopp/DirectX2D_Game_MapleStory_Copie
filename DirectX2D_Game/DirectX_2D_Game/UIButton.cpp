@@ -3,6 +3,9 @@
 #include "Input.h"
 #include "Macro.h"
 #include "CCore.h"
+#include "SoundManager.h"
+#include "Mouse.h"
+
 CUIButton::CUIButton()
 	
 {
@@ -74,7 +77,9 @@ void CUIButton::FirstHitEvent(CObj* const Target, float fDeltaTime)
 {
 	CUI::FirstHitEvent(Target, fDeltaTime);
 
-	if (Target->GetTag() == L"Mouse");
+	if (Target->GetTag() == L"Mouse") {
+		SoundManager::Instance().Play(GET_SINGLE(CInput)->GetMouse()->TabSoundKey.data());
+	}
 }
 
 void CUIButton::ReleaseHitEvent(CObj* const Target, float fDeltaTime)
@@ -98,4 +103,11 @@ void CUIButton::Render(HDC hDC, float fDeltaTime)
 CUIButton* CUIButton::Clone()
 {
 	return new CUIButton{ *this };
+}
+
+void CUIButton::MouseClickEvent(CObj* const Target, float fDeltaTime)
+{
+	CUI::MouseClickEvent(Target, fDeltaTime);
+
+	SoundManager::Instance().Play(GET_SINGLE(CInput)->GetMouse()->ClickSoundKey.data(),true);
 }

@@ -78,13 +78,13 @@ int CUI::LateUpdate(float fDeltaTime)
 	return 0;
 }
 void CUI::ClampPos() {
-	RESOLUTION WorldRs = GET_SINGLE(CCamera)->GetWorldRS();
+	/*RESOLUTION WorldRs = GET_SINGLE(CCamera)->GetClientRect();
 	float X = GETRESOLUTION.iW - GetSize().x;
 	float Y = GETRESOLUTION.iH - GetSize().y;
 	if(X>=0)
 	m_tPos.x = std::clamp<float>(m_tPos.x, 0, X);
 	if(Y>=0)
-	m_tPos.y = std::clamp<float>(m_tPos.y, 0, Y);
+	m_tPos.y = std::clamp<float>(m_tPos.y, 0, Y);*/
 }
 void CUI::Collision(float fDeltaTime)
 {
