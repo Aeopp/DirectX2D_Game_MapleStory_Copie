@@ -24,7 +24,6 @@ bool CMouse::Init()
 	GetCursorPos(&pt);
 	ScreenToClient(WINDOWHANDLE, &pt);
 	m_tPos = pt; 
-
 	
 	return true;
 }
@@ -69,9 +68,9 @@ void CMouse::Hit(CObj* const Target, float fDeltaTime)
 void CMouse::Render(HDC hDC, float fDeltaTime)
 {
 	CUI::Render(hDC, fDeltaTime);
-}
+};
 
 CMouse* CMouse::Clone()
 {
 	return new CMouse{ *this };
-}
+};
