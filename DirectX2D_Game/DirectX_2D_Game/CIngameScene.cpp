@@ -57,13 +57,17 @@ bool CIngameScene::Init()
 	pPortal->SetPos(427, 1346);
 
 	if(StageFlag==false )
-			pPortal->PortalEvent = []() {
-	
+	pPortal->PortalEvent = []() {
+		/*PlayerInfo::PlayerHP = pPlayer->m_iHP;
+		PlayerInfo::PlayerLevel = pPlayer->Level;*/
+
 		GET_SINGLE(CSceneManager)->CreateScene<CDungeonScecne>(SC_NEXT); 
 	};
 	else if (StageFlag == true)
-			pPortal->PortalEvent = []() { 
-	
+	pPortal->PortalEvent = []() { 
+		/*PlayerInfo::PlayerHP = pPlayer->m_iHP;
+		PlayerInfo::PlayerLevel = pPlayer->Level;*/
+
 		GET_SINGLE(CSceneManager)->CreateScene<CDungeonScene2>(SC_NEXT); 
 	};
 
@@ -73,7 +77,7 @@ bool CIngameScene::Init()
 	
 	CLayer* pUILayer = FindLayer(L"UI");
 
-	pPlayer->HPBarSpawn({ 0,(float)GET_SINGLE(CCamera)->GetClientRect().iH - 71 },
+	pPlayer->HPBarSpawn({ 0,(float)GET_SINGLE(CCore)->GetResolution().iH - 71 },
 		{ 570,71 }, { L"Bar1",L"Bar2" }, { L"BAR1.bmp",L"BAR2.bmp" }, pUILayer);
 
 	CurrentUIMinimap = CObj::CreateObj<CUIPanel>(L"pMinimapUI", pUILayer);

@@ -4,7 +4,6 @@
 #include "CCore.h"
 #include "CSceneManager.h"
 #include "SoundManager.h"
-#include "UI_MonsterInfo.h"
 
 void CMonster::FirstHitEvent(CObj*const  Target, float fDeltaTime)
 {
@@ -16,22 +15,6 @@ void CMonster::FirstHitEvent(CObj*const  Target, float fDeltaTime)
 		
 	}
 }
-
-
-void CMonster::MonsterInfoSpawn(_SIZE Size,
-	const std::wstring& Objectnames, const std::wstring& FileNames,
-	CLayer* UILayer)
-{
-	CurrentInfo = CObj::CreateObj<CUI_MonsterInfo>(Objectnames, UILayer);
-	CurrentInfo->SetPos(this->GetPos());
-	CurrentInfo->SetSize(Size);
-	CurrentInfo->SetTexture(Objectnames, FileNames.c_str());
-	CurrentInfo->SetColorKey(255, 0, 255);
-
-	CurrentInfo->Owner = this;
-
-	SAFE_RELEASE(CurrentInfo);
-};
 
 CMonster::CMonster() {
 	CollisionTag = L"Monster";

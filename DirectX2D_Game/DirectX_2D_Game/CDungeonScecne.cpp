@@ -25,7 +25,6 @@
 #include "CDungeonScene2.h"
 #include "DataTable.h"
 #include "SoundManager.h"
-#include "Camera.h"
 
 void ChangeDungeon2() {
 	GET_SINGLE(CSceneManager)->CreateScene<CIngameScene>(SC_NEXT);
@@ -106,7 +105,7 @@ bool CDungeonScecne::Init()
 	CurrentUIMinimap->SetTexture(L"MinimapUI2",
 		L"Minimap.bmp");
 
-	pPlayer->HPBarSpawn({ 0,(float)GET_SINGLE(CCamera)->GetClientRect().iH - 71 },
+	pPlayer->HPBarSpawn({ 0,(float)GET_SINGLE(CCore)->GetResolution().iH - 71 },
 		{ 570,71 }, { L"Bar1",L"Bar2" }, { L"BAR1.bmp",L"BAR2.bmp" }, pUILayer);
 
 	SAFE_RELEASE(pPlayer);

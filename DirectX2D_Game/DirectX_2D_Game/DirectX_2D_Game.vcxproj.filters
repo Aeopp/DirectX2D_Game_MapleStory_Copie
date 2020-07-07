@@ -183,9 +183,6 @@
     <ClCompile Include="SoundManager.cpp">
       <Filter>Sound</Filter>
     </ClCompile>
-    <ClCompile Include="UI_MonsterInfo.cpp">
-      <Filter>Object\Monster</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bullet.h">
@@ -349,9 +346,6 @@
     </ClInclude>
     <ClInclude Include="SoundManager.h">
       <Filter>Sound</Filter>
-    </ClInclude>
-    <ClInclude Include="UI_MonsterInfo.h">
-      <Filter>Object\Monster</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
