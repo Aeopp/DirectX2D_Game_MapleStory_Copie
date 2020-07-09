@@ -17,7 +17,6 @@ bool CDungeon::Init()
 
 void CDungeon::Render(HDC hDC, float fDeltaTime)
 {
-	// CStaticObj::Render(hDC, fDeltaTime);
 	CStage::Render(hDC, fDeltaTime);
 }
 

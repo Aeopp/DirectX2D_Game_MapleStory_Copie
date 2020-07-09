@@ -49,7 +49,7 @@ void Weapon::Hit(CObj* const Target, float fDeltaTime)
 			Scene->DeleteMonster(Monster);
 
 			if (Scene->IsStageClear() == true) {
-			//	MessageBox(WINDOWHANDLE, L"클리어!", L"클리어!", NULL);
+			
 				Scene->StageClear();
 			};
 

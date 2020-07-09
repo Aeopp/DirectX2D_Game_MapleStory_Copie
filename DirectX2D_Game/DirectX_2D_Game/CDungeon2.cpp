@@ -7,7 +7,7 @@
 bool CDungeon2::Init()
 {
 	SetPos(0.f, 0.f);
-	SetSize(1710, 1140);
+	SetSize(1920, 1140);
 	SetPivot(0.f, 0.f);
 
 	SetTexture(L"Dungeon2.bmp", L"Map\\Dungeon2.bmp");

@@ -15,7 +15,6 @@ public :
 
 	virtual bool Init();
 	virtual DamagePont* Clone();
-	// std::vector<class CTexture*> Textures;
 	void Render(HDC hDC, float fDeltaTime)override;
 	void DamagePrint(POSITION PrintPos,int Damage);
 	int  Update(float fDeltaTime)override; 

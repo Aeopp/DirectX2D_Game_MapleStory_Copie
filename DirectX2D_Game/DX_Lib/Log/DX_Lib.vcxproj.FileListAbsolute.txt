@@ -4,3 +4,5 @@ D:\DirectX2DGame\DirectX2D_Game\DX_Lib\Log\DX_Lib.pdb
 D:\DirectX2DGame\DirectX2D_Game\DX_Lib\DX_Lib.pdb
 D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\Log\DX_Lib.pdb
 D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\DX_Lib.pdb
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\DX_Lib.lib.lastcodeanalysissucceeded
+D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\Log\NativeCodeAnalysis.read.1.tlog
