@@ -42,5 +42,6 @@
 .debug/
 .log/
 .tlog/
+.Log/
 
 
