@@ -7,6 +7,9 @@
 * *DirectX2D_Game\\DirectX_2D_Game\\Sound*
 * *DirectX2D_Game\\DirectX_2D_Game\\Texture*
 
+## Game Video Link Here
+    https://youtu.be/yBJqQGJZRuw
+
 
 
 
