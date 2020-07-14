@@ -8,7 +8,15 @@
 * *DirectX2D_Game\\DirectX_2D_Game\\Texture*
 
 ## Game Video Link Here
-    https:://youtu.be/yBJqQGJZRuw
+[link keyword][id]
+
+[id]: URL "Optional Title here"
+
+// code
+Link: [Google][googlelink]
+
+[googlelink]: https://youtu.be/yBJqQGJZRuw "Go google"
+    
 
 
 
