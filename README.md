@@ -1,4 +1,4 @@
-# DirectX2D_Game_MapleStory_Copie
+# DirectX2D Game MapleStory Copie
 ## History
 * API Project 2020.05 -> DirectX2D RenderingEngine Changed 2020.06...........................
 ## Resources required
