@@ -30,8 +30,17 @@
 *.opendb
 *.zip
 *.ipch
+*.idb
+*.log
+*.pdb
+*.tlog
+*.lastbuildstate
 
 ## folder ignore
 .vs/
 .localTemp/
+.debug/
+.log/
+.tlog/
+
 
