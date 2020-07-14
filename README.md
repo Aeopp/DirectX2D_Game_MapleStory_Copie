@@ -7,7 +7,7 @@
 * *DirectX2D_Game\\DirectX_2D_Game\\Sound*
 * *DirectX2D_Game\\DirectX_2D_Game\\Texture*
 
-## Game Video Link Here
+## Game Video Link
 [Portfolio video][id]
 
 [id]: URL "Optional Title here"
