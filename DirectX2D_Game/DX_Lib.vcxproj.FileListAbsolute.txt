@@ -1,2 +1,0 @@
-C:\Users\irmxj\Desktop\DirectX2DGame\DirectX2D_Game\DX_Lib.lib
-C:\Users\irmxj\Desktop\DirectX2DGame\DirectX2D_Game\DX_Lib.pdb
