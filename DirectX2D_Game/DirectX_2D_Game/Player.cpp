@@ -453,7 +453,7 @@ void CPlayer::Hit(CObj* const Target, float fDeltaTime)
 		DamagePos.x -= 30;
 		GET_SINGLE(CSceneManager)->CurrentDamagePont->DamagePrint(DamagePos, CurrentDamage);
 
-		SoundManager::Instance().Play(this->HitSoundKey.data(),2.f);
+		SoundManager::Instance().Play(this->HitSoundKey.data(),false,2.f);
 
 
 		if (0 < Target->GetPos().x - GetPos().x) {

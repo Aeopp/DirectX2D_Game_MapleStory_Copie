@@ -45,6 +45,8 @@ bool CCore::Init(HINSTANCE hInst)
 
 //	m_hDC = GetDC(m_hWnd);
 
+	SoundManager::Instance().Init();
+
 	if (!GET_SINGLE(CTimer)->Init(m_hWnd)){
 		return false;
 	}
@@ -61,8 +63,6 @@ bool CCore::Init(HINSTANCE hInst)
 		m_Graphics = new Graphics(m_hWnd, ClientRect.right, ClientRect.bottom);
 		m_Graphics->Initialzie();
 	}
-
-	SoundManager::Instance().Init();
 
 	if (!GET_SINGLE(CInput)->Init(m_hWnd)) {
 		return false;

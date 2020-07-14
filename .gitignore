@@ -30,6 +30,7 @@
 *.opendb
 *.zip
 *.ipch
+
 ## folder ignore
 .vs/
 .localTemp/
