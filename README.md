@@ -15,7 +15,7 @@
 // code
 Link: [Google][googlelink]
 
-[googlelink]: https://youtu.be/yBJqQGJZRuw "Go google"
+[googlelink]: https://youtu.be/yBJqQGJZRuw "Go Game Video"
     
 
 
