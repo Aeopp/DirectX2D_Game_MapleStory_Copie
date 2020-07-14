@@ -8,12 +8,11 @@
 * *DirectX2D_Game\\DirectX_2D_Game\\Texture*
 
 ## Game Video Link Here
-[link keyword][id]
+[Portfolio video][id]
 
 [id]: URL "Optional Title here"
 
-// code
-Link: [Google][googlelink]
+Link: [Game Youtube][googlelink]
 
 [googlelink]: https://youtu.be/yBJqQGJZRuw "Go Game Video"
     
