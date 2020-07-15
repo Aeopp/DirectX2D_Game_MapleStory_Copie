@@ -1,6 +1,6 @@
 # DirectX2D Game MapleStory Copie
 ## History
-* API Project 2020.05 -> DirectX2D RenderingEngine Changed 2020.07...........................
+* API Project 2020.05 -> DirectX2D RenderingEngine Changed 2020.06...........................
 ## Resources required
 * *DirectX2D_Game\\DirectX_2D_Game\\Game.exe*
 * *DirectX2D_Game\\DirectX_2D_Game\\fmod.dll*

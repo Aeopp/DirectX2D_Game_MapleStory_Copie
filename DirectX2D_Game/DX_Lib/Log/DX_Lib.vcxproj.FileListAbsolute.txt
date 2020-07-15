@@ -6,3 +6,5 @@ D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\Log\DX_Li
 D:\DirectX2DGame\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\DX_Lib.pdb
 D:\TempWorkingDir\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\Log\DX_Lib.pdb
 D:\TempWorkingDir\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\DX_Lib.pdb
+C:\Users\irmxj\Desktop\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\Log\DX_Lib.pdb
+C:\Users\irmxj\Desktop\DirectX2D_Game_MapleStory_Copie\DirectX2D_Game\DX_Lib\DX_Lib.pdb

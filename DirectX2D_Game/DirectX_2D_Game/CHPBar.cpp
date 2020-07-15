@@ -24,16 +24,11 @@ void CHPBar::Render(HDC hDC, float fDeltaTime)
 
     int CurrentOwnerLevel = 0;
     CurrentOwnerLevel = Owner->Level;
+    auto ClientRect = GET_SINGLE(CCamera)->GetClientRect();
+    SetPos(0, ClientRect.iH - GetSize().y);
 
     if (Owner->GetTag() == L"Player")
     {
-        auto ClientRect = GET_SINGLE(CCamera)->GetClientRect();
-
-        SetPos(0, ClientRect .iH-GetSize().y);
-        /*LONG X = 0 + 40;
-        LONG Y = (LONG)GET_SINGLE(CCore)->GetResolution().iH - 53 / 2;
-        LONG Size = 50;
-        RECT rt = RECT{ X,Y,X + Size,Y + Size };*/
     }
 }
 
